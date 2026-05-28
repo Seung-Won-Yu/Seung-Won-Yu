@@ -24,6 +24,15 @@
 ### Featured builds
 
 <div align="center">
+  <img src="./assets/workroom-portal-preview.png" alt="EST.AI Workroom Portal preview" width="100%" />
+</div>
+
+<strong>EST.AI Workroom Portal</strong><br />
+Private internal portal for AI work artifacts, file previews, team sharing, archive recovery, and admin operations.
+
+<br />
+
+<div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
@@ -59,6 +68,7 @@
   <a href="https://github.com/Seung-Won-Yu/apple-burst">
     <img src="https://img.shields.io/badge/Apple%20Burst-Browser%20Game-F4C2A1?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
   </a>
+  <img src="https://img.shields.io/badge/Workroom%20Portal-Private%20Platform-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="Workroom Portal private platform" />
   <a href="https://github.com/Seung-Won-Yu?tab=repositories">
     <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
   </a>
