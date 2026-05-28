@@ -50,6 +50,15 @@ Currently learning by building small projects, improving workflows, and shipping
 
 ## Projects I Am Building
 
+<p align="center">
+  <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
+    <img src="https://raw.githubusercontent.com/Seung-Won-Yu/pangpang-anipang/main/docs/images/pangpang-anipang-home.png" alt="PangPang Anipang screenshot" width="45%" />
+  </a>
+  <a href="https://github.com/Seung-Won-Yu/apple-burst">
+    <img src="https://raw.githubusercontent.com/Seung-Won-Yu/apple-burst/main/docs/images/apple-burst-home.png" alt="Apple Burst screenshot" width="45%" />
+  </a>
+</p>
+
 | Project | What it is | Stack / Focus |
 | --- | --- | --- |
 | [PangPang Anipang](https://github.com/Seung-Won-Yu/pangpang-anipang) | A match-style web game project with ranking and deployment flow | React, TypeScript, Vite, Firebase |
