@@ -2,7 +2,7 @@
 
 # Seung-Won Yu
 
-### Building practical tools with code, automation, and AI
+### Building web games, small tools, automation, and AI-powered prototypes
 
 I like turning messy ideas into usable products.
 Currently learning by building small projects, improving workflows, and shipping things one step at a time.
@@ -16,7 +16,7 @@ Currently learning by building small projects, improving workflows, and shipping
 ## About Me
 
 - Interested in AI automation, web tools, and practical software projects
-- Enjoy building small prototypes and improving them through feedback
+- Enjoy building small games and prototypes, then improving them through feedback
 - Learning how to write cleaner code, better documentation, and more useful products
 - Focused on making ideas understandable, usable, and easy to maintain
 
@@ -34,7 +34,7 @@ Currently learning by building small projects, improving workflows, and shipping
 ## What I Am Working Toward
 
 - Building a stronger public project portfolio
-- Creating tools that help with learning, research, automation, and productivity
+- Creating games and tools that help with learning, research, automation, and productivity
 - Practicing readable code, simple architecture, and clean README documentation
 - Growing from small experiments into polished projects
 
@@ -48,11 +48,17 @@ Currently learning by building small projects, improving workflows, and shipping
 
 </div>
 
-## Featured Projects
+## Projects I Am Building
 
-Coming soon.
+| Project | What it is | Stack / Focus |
+| --- | --- | --- |
+| PangPang Anipang | A match-style web game project with ranking and deployment flow | React, TypeScript, Vite, Firebase |
+| Apple Burst | A browser game with Firebase Realtime Database ranking | HTML, CSS, JavaScript, Firebase |
+| Market Memory Path | A senior-friendly cognitive training game prototype for WebView | HTML5, JavaScript, Node.js API |
+| Memory Flower Garden | A gentle card-matching memory game with a mobile-first flow | HTML, CSS, JavaScript |
+| Trackpad Pet | A macOS pet app that reacts to trackpad interaction with sound, mood, and haptics | Swift, macOS, local-first storage |
 
-I am organizing my projects so this profile can become a clear record of what I build and learn.
+I am organizing these projects into public repositories so this profile can become a clear record of what I build and learn.
 
 ---
 
