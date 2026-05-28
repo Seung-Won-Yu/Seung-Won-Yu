@@ -1,30 +1,27 @@
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Seung-Won-Yu&label=Profile%20views&color=0e75b6&style=flat" alt="Seung-Won-Yu profile views" />
-</p>
+<!--
+  Hey there, I'm Seung-Won Yu.
+  This profile is a small portfolio for web games, AI automation, and useful prototypes.
+-->
 
-<h2><a href="https://github.com/Seung-Won-Yu?tab=repositories">Portfolio</a></h2>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=header" alt="header" />
 
-<div align="center">
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=620&lines=Hello%2C+I'm+Seung-Won+Yu;Web+Game+%26+AI+Automation+Builder;Turning+small+ideas+into+playable+products" alt="Typing introduction" />
+</a>
 
-### Web Games · AI Automation · Useful Prototypes
-
-Building small playable ideas, clean browser tools, and AI-assisted workflows.
-
+<div>
+  <img src="./assets/about-seungwon.svg" alt="About Seung-Won terminal card" width="100%" />
 </div>
 
-<div align="center">
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" alt="React" title="React" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png" alt="Vite" title="Vite" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/firebase.png" alt="Firebase" title="Firebase" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png" alt="HTML" title="HTML" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS" title="CSS" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python" /></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" title="Git" /></code>
-</div>
+### Main skills
 
-### Featured Work
+[![My Skills](https://skillicons.dev/icons?i=react,ts,vite,firebase,js,html,css,python,git,github)](https://skillicons.dev)
+
+### Studying
+
+[![Learning](https://skillicons.dev/icons?i=nodejs,nextjs,swift,figma,cloudflare)](https://skillicons.dev)
+
+### Featured builds
 
 <div align="center">
   <table>
@@ -53,46 +50,26 @@ Building small playable ideas, clean browser tools, and AI-assisted workflows.
   </table>
 </div>
 
-### System Metrics & Activity
+### Project links
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Seung-Won-Yu&theme=dark&hide_border=true&area=true&bg_color=0D1117" width="100%" alt="GitHub activity graph" />
-</p>
-
-<div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seung-Won-Yu&theme=dark" width="100%" alt="GitHub stats summary" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Seung-Won-Yu&theme=dark&utcOffset=9" width="100%" alt="Productive time summary" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seung-Won-Yu&theme=dark" width="100%" alt="Repositories per language" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Seung-Won-Yu&theme=dark" width="100%" alt="Most committed languages" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-### Pinned Builds
-
-<div align="center">
+<div>
   <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Seung-Won-Yu&repo=pangpang-anipang&theme=dark&hide_border=true" alt="PangPang Anipang repository card" />
+    <img src="https://img.shields.io/badge/PangPang%20Anipang-React%20Game-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
   </a>
   <a href="https://github.com/Seung-Won-Yu/apple-burst">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Seung-Won-Yu&repo=apple-burst&theme=dark&hide_border=true" alt="Apple Burst repository card" />
+    <img src="https://img.shields.io/badge/Apple%20Burst-Browser%20Game-F4C2A1?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
+  </a>
+  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
+    <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
   </a>
 </div>
 
-### Connect
+### Connect with me
 
-<p align="left">
-  <a href="https://github.com/Seung-Won-Yu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Seung-Won-Yu" height="30" width="40" /></a>
-</p>
+<div>
+  <a href="https://github.com/Seung-Won-Yu">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" width="35" height="35" />
+  </a>
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer" />
