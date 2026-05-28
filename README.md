@@ -52,8 +52,8 @@ Currently learning by building small projects, improving workflows, and shipping
 
 | Project | What it is | Stack / Focus |
 | --- | --- | --- |
-| PangPang Anipang | A match-style web game project with ranking and deployment flow | React, TypeScript, Vite, Firebase |
-| Apple Burst | A browser game with Firebase Realtime Database ranking | HTML, CSS, JavaScript, Firebase |
+| [PangPang Anipang](https://github.com/Seung-Won-Yu/pangpang-anipang) | A match-style web game project with ranking and deployment flow | React, TypeScript, Vite, Firebase |
+| [Apple Burst](https://github.com/Seung-Won-Yu/apple-burst) | A browser game with optional Firebase Realtime Database ranking | HTML, CSS, JavaScript, Firebase |
 | Market Memory Path | A senior-friendly cognitive training game prototype for WebView | HTML5, JavaScript, Node.js API |
 | Memory Flower Garden | A gentle card-matching memory game with a mobile-first flow | HTML, CSS, JavaScript |
 | Trackpad Pet | A macOS pet app that reacts to trackpad interaction with sound, mood, and haptics | Swift, macOS, local-first storage |
