@@ -43,6 +43,23 @@
 - AI-assisted work portals for research, development artifacts, and team operations
 - Cleaner project READMEs, preview images, and portfolio-ready presentation
 
+<details>
+  <summary><strong>Open build log</strong></summary>
+
+```txt
+$ portfolio status
+
+ACTIVE
+  workroom-portal      private AI artifact portal, previews, archive recovery
+  pangpang-anipang     public React match game with Firebase ranking
+  apple-burst          public browser game with lightweight scoring
+
+NEXT
+  make each project easier to understand, try, and share
+```
+
+</details>
+
 ### Featured builds
 
 <div align="center">
