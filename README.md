@@ -107,6 +107,11 @@ Private internal portal for AI work artifacts, file previews, team sharing, arch
   </a>
 </div>
 
+<br />
+
+<strong><a href="https://github.com/Seung-Won-Yu/codex-agent-kit">Codex Agent Kit</a></strong><br />
+My personal Codex setup with reusable skills, routing rules, safe config examples, and docs for turning rough ideas into product, design, frontend, and Supabase workflows.
+
 ### Connect with me
 
 <div>
