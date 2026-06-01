@@ -3,11 +3,27 @@
   This profile is a small portfolio for web games, AI automation, and useful prototypes.
 -->
 
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=Seung-Won-Yu&label=Profile%20views&color=D9BED1&style=flat" alt="Seung-Won-Yu profile views" />
+</p>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=header" alt="header" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=620&lines=Hello%2C+I'm+Seung-Won+Yu;Web+Game+%26+AI+Automation+Builder;Turning+small+ideas+into+playable+products" alt="Typing introduction" />
 </a>
+
+<div>
+  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
+    <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
+  </a>
+  <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
+    <img src="https://img.shields.io/badge/Featured-PangPang%20Anipang-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
+  </a>
+  <a href="https://github.com/Seung-Won-Yu/apple-burst">
+    <img src="https://img.shields.io/badge/Featured-Apple%20Burst-F4C2A1?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
+  </a>
+</div>
 
 <div>
   <img src="./assets/about-seungwon.svg" alt="About Seung-Won terminal card" width="100%" />
@@ -20,6 +36,12 @@
 ### Studying
 
 [![Learning](https://skillicons.dev/icons?i=nodejs,nextjs,swift,figma,cloudflare)](https://skillicons.dev)
+
+### Now building
+
+- Playable browser games with simple, clear feedback loops
+- AI-assisted work portals for research, development artifacts, and team operations
+- Cleaner project READMEs, preview images, and portfolio-ready presentation
 
 ### Featured builds
 
@@ -72,6 +94,13 @@ Private internal portal for AI work artifacts, file previews, team sharing, arch
   <a href="https://github.com/Seung-Won-Yu?tab=repositories">
     <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
   </a>
+</div>
+
+### GitHub pulse
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Seung-Won-Yu&show_icons=true&hide_border=true&bg_color=fffefe&title_color=8B5E83&text_color=222222&icon_color=3447A4" alt="Seung-Won Yu GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seung-Won-Yu&layout=compact&hide_border=true&bg_color=fffefe&title_color=8B5E83&text_color=222222" alt="Top languages" height="165" />
 </div>
 
 ### Connect with me
