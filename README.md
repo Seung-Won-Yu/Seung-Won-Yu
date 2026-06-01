@@ -43,22 +43,13 @@
 - AI-assisted work portals for research, development artifacts, and team operations
 - Cleaner project READMEs, preview images, and portfolio-ready presentation
 
-<details>
-  <summary><strong>Open build log</strong></summary>
+### Contribution trail
 
-```txt
-$ portfolio status
-
-ACTIVE
-  workroom-portal      private AI artifact portal, previews, archive recovery
-  pangpang-anipang     public React match game with Firebase ranking
-  apple-burst          public browser game with lightweight scoring
-
-NEXT
-  make each project easier to understand, try, and share
-```
-
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 ### Featured builds
 
