@@ -43,6 +43,10 @@
 - AI-assisted work portals for research, development artifacts, and team operations
 - Cleaner project READMEs, preview images, and portfolio-ready presentation
 
+<div align="center">
+  <img src="./assets/build-map.svg" alt="Build map: idea to prototype to product to portfolio" width="100%" />
+</div>
+
 ### Featured builds
 
 <div align="center">
