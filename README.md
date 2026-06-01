@@ -43,13 +43,9 @@
 - AI-assisted work portals for research, development artifacts, and team operations
 - Cleaner project READMEs, preview images, and portfolio-ready presentation
 
-### Contribution trail
+### Contribution skyline
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
+![](./profile-3d-contrib/profile-gitblock.svg)
 
 ### Featured builds
 
