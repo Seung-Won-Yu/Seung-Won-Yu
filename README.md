@@ -104,13 +104,6 @@ Private internal portal for AI work artifacts, file previews, team sharing, arch
   </a>
 </div>
 
-### GitHub pulse
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Seung-Won-Yu&show_icons=true&hide_border=true&bg_color=fffefe&title_color=8B5E83&text_color=222222&icon_color=3447A4" alt="Seung-Won Yu GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seung-Won-Yu&layout=compact&hide_border=true&bg_color=fffefe&title_color=8B5E83&text_color=222222" alt="Top languages" height="165" />
-</div>
-
 ### Connect with me
 
 <div>
