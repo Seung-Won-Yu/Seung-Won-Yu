@@ -99,6 +99,9 @@ Private internal portal for AI work artifacts, file previews, team sharing, arch
     <img src="https://img.shields.io/badge/Apple%20Burst-Browser%20Game-F4C2A1?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
   </a>
   <img src="https://img.shields.io/badge/Workroom%20Portal-Private%20Platform-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="Workroom Portal private platform" />
+  <a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
+    <img src="https://img.shields.io/badge/Codex%20Agent%20Kit-Skills%20%26%20Routing-F4C2A1?style=for-the-badge&logo=openai&logoColor=111111" alt="Codex Agent Kit" />
+  </a>
   <a href="https://github.com/Seung-Won-Yu?tab=repositories">
     <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
   </a>
