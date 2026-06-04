@@ -1,123 +1,105 @@
-<!--
-  Hey there, I'm Seung-Won Yu.
-  This profile is a small portfolio for web games, AI automation, and useful prototypes.
--->
+<!-- GitHub profile README for Seung-Won Yu -->
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Seung-Won-Yu&label=Profile%20views&color=D9BED1&style=flat" alt="Seung-Won-Yu profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Seung-Won-Yu&label=Profile%20views&color=8BA3A7&style=flat" alt="Profile views" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=header" alt="header" />
+<img src="./assets/social-preview.png" alt="Seung-Won Yu portfolio preview" width="100%" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=620&lines=Hello%2C+I'm+Seung-Won+Yu;Web+Game+%26+AI+Automation+Builder;Turning+small+ideas+into+playable+products" alt="Typing introduction" />
+# 유승원 · Seung-Won Yu
+
+I build small playable web games, AI-assisted work tools, and practical prototypes that can become real portfolio pieces.
+
+```text
+idea -> playable prototype -> cleaner README -> portfolio-ready project
+```
+
+## Focus
+
+- Browser games with clear feedback loops and ranking-ready structure
+- AI workroom tools for research, file previews, artifacts, sharing, and admin flows
+- Codex agent setup: lean skills, routing rules, senior engineering lenses, and repeatable workflows
+- Project presentation: README structure, preview images, badges, and GitHub polish
+
+## Stack
+
+**Main**
+
+[![Main skills](https://skillicons.dev/icons?i=react,ts,vite,firebase,js,html,css,python,git,github)](https://skillicons.dev)
+
+**Learning / expanding**
+
+[![Learning](https://skillicons.dev/icons?i=nodejs,nextjs,swift,figma,cloudflare,supabase)](https://skillicons.dev)
+
+## Featured Builds
+
+### EST.AI Workroom Portal
+
+Private internal workroom portal for AI artifacts, research outputs, file previews, team sharing, archive recovery, and admin operations.
+
+<img src="./assets/workroom-portal-preview.png" alt="EST.AI Workroom Portal dashboard preview" width="100%" />
+
+### Playable Games
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
+        <img src="https://raw.githubusercontent.com/Seung-Won-Yu/pangpang-anipang/main/docs/images/pangpang-anipang-home.png" alt="PangPang Anipang preview" width="100%" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/Seung-Won-Yu/apple-burst">
+        <img src="https://raw.githubusercontent.com/Seung-Won-Yu/apple-burst/main/docs/images/apple-burst-home.png" alt="Apple Burst preview" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong><a href="https://github.com/Seung-Won-Yu/pangpang-anipang">PangPang Anipang</a></strong><br />
+      Match-style web game prototype built with React, TypeScript, Vite, and Firebase.
+    </td>
+    <td width="50%">
+      <strong><a href="https://github.com/Seung-Won-Yu/apple-burst">Apple Burst</a></strong><br />
+      Static browser apple-burst game with optional Firebase ranking.
+    </td>
+  </tr>
+</table>
+
+### Codex Agent Kit
+
+<a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
+  <img src="https://img.shields.io/badge/Codex%20Agent%20Kit-Lean%20Skills%20%2B%20Routing-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Codex Agent Kit" />
 </a>
 
-<div>
-  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
-    <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
-  </a>
+My personal Codex setup for turning rough requests into cleaner execution:
+
+- 102 lean skills instead of a noisy skill pile
+- `skill-router` for fast routing by task type
+- `media-image-director` for Codex-native image prompts and README visuals
+- senior engineering lenses for backend, frontend, review, and ship checks
+
+## Project Links
+
+<p>
   <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-    <img src="https://img.shields.io/badge/Featured-PangPang%20Anipang-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
+    <img src="https://img.shields.io/badge/PangPang%20Anipang-React%20Game-8BA3A7?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
   </a>
   <a href="https://github.com/Seung-Won-Yu/apple-burst">
-    <img src="https://img.shields.io/badge/Featured-Apple%20Burst-F4C2A1?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
+    <img src="https://img.shields.io/badge/Apple%20Burst-Browser%20Game-E7B37C?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
   </a>
-</div>
+  <a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
+    <img src="https://img.shields.io/badge/Codex%20Agent%20Kit-Agent%20Workflow-111111?style=for-the-badge&logo=github&logoColor=white" alt="Codex Agent Kit" />
+  </a>
+  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
+    <img src="https://img.shields.io/badge/More-Repositories-2F3A3D?style=for-the-badge&logo=github&logoColor=white" alt="More repositories" />
+  </a>
+</p>
 
-<div>
-  <img src="./assets/about-seungwon.svg" alt="About Seung-Won terminal card" width="100%" />
-</div>
-
-### Main skills
-
-[![My Skills](https://skillicons.dev/icons?i=react,ts,vite,firebase,js,html,css,python,git,github)](https://skillicons.dev)
-
-### Studying
-
-[![Learning](https://skillicons.dev/icons?i=nodejs,nextjs,swift,figma,cloudflare)](https://skillicons.dev)
-
-### Now building
-
-- Playable browser games with simple, clear feedback loops
-- AI-assisted work portals for research, development artifacts, and team operations
-- Cleaner project READMEs, preview images, and portfolio-ready presentation
-
-### Contribution skyline
+## Contribution Skyline
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution skyline" width="100%" />
 </picture>
-
-### Featured builds
-
-<div align="center">
-  <img src="./assets/workroom-portal-preview.png" alt="EST.AI Workroom Portal preview" width="100%" />
-</div>
-
-<strong>EST.AI Workroom Portal</strong><br />
-Private internal portal for AI work artifacts, file previews, team sharing, archive recovery, and admin operations.
-
-<br />
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-          <img src="https://raw.githubusercontent.com/Seung-Won-Yu/pangpang-anipang/main/docs/images/pangpang-anipang-home.png" alt="PangPang Anipang screenshot" width="100%" />
-        </a>
-      </td>
-      <td align="center" width="50%">
-        <a href="https://github.com/Seung-Won-Yu/apple-burst">
-          <img src="https://raw.githubusercontent.com/Seung-Won-Yu/apple-burst/main/docs/images/apple-burst-home.png" alt="Apple Burst screenshot" width="100%" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <strong><a href="https://github.com/Seung-Won-Yu/pangpang-anipang">PangPang Anipang</a></strong><br />
-        Match-style web game prototype built with React, TypeScript, Vite, and Firebase.
-      </td>
-      <td width="50%">
-        <strong><a href="https://github.com/Seung-Won-Yu/apple-burst">Apple Burst</a></strong><br />
-        Static browser apple-burst game with optional Firebase ranking.
-      </td>
-    </tr>
-  </table>
-</div>
-
-### Project links
-
-<div>
-  <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-    <img src="https://img.shields.io/badge/PangPang%20Anipang-React%20Game-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu/apple-burst">
-    <img src="https://img.shields.io/badge/Apple%20Burst-Browser%20Game-F4C2A1?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
-  </a>
-  <img src="https://img.shields.io/badge/Workroom%20Portal-Private%20Platform-D9BED1?style=for-the-badge&logo=react&logoColor=111111" alt="Workroom Portal private platform" />
-  <a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
-    <img src="https://img.shields.io/badge/Codex%20Agent%20Kit-Skills%20%26%20Routing-F4C2A1?style=for-the-badge&logo=openai&logoColor=111111" alt="Codex Agent Kit" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
-    <img src="https://img.shields.io/badge/Portfolio-Repositories-12100E?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repositories" />
-  </a>
-</div>
-
-<br />
-
-<strong><a href="https://github.com/Seung-Won-Yu/codex-agent-kit">Codex Agent Kit</a></strong><br />
-My personal Codex setup with reusable skills, routing rules, safe config examples, and docs for turning rough ideas into product, design, frontend, and Supabase workflows.
-
-### Connect with me
-
-<div>
-  <a href="https://github.com/Seung-Won-Yu">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" width="35" height="35" />
-  </a>
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer" />
