@@ -26,22 +26,26 @@
 
 ### 01 · Codex Agent Kit
 
-실제로 사용하는 개인 Codex 설정의 source of truth. 거친 요청 보정, native skill routing, 제한된 에이전트 위임과 최종 검증을 하나의 설치 흐름으로 정리했습니다.  
+실제로 사용하는 개인 Codex 설정의 source of truth. 거친 요청 보정, native skill routing, 제한된 에이전트 위임과 최종 검증을 하나의 설치 흐름으로 정리했습니다.
+
 **[View live](https://seung-won-yu.github.io/codex-agent-kit/)** · [Source](https://github.com/Seung-Won-Yu/codex-agent-kit)
 
 ### 02 · PocketDesk OS
 
-창 관리자, 파일 시스템, 메모장, 그림판과 게임까지 브라우저 안에서 실제로 동작하는 React 기반 웹 데스크톱입니다.  
+창 관리자, 파일 시스템, 메모장, 그림판과 게임까지 브라우저 안에서 실제로 동작하는 React 기반 웹 데스크톱입니다.
+
 **[Open desktop](https://seung-won-yu.github.io/pocket-desk-os/)** · [Source](https://github.com/Seung-Won-Yu/pocket-desk-os)
 
 ### 03 · Rune Drift Survivors
 
-React Three Fiber로 만든 3D 브라우저 로그라이트. 자동 전투, 성장 선택, 시너지와 보스전이 하나의 5분 플레이 루프로 이어집니다.  
+React Three Fiber로 만든 3D 브라우저 로그라이트. 자동 전투, 성장 선택, 시너지와 보스전이 하나의 5분 플레이 루프로 이어집니다.
+
 **[Play game](https://seung-won-yu.github.io/rune-drift-survivors/)** · [Source](https://github.com/Seung-Won-Yu/rune-drift-survivors)
 
 ### 04 · Apple Burst
 
-합이 10이 되는 사과를 드래그해 터뜨리는 캐주얼 브라우저 게임. 반응형 캔버스와 Firebase 기반 랭킹 흐름을 갖췄습니다.  
+합이 10이 되는 사과를 드래그해 터뜨리는 캐주얼 브라우저 게임. 반응형 캔버스와 Firebase 기반 랭킹 흐름을 갖췄습니다.
+
 **[Play game](https://seung-won-yu.github.io/apple-burst/)** · [Source](https://github.com/Seung-Won-Yu/apple-burst)
 
 ## How I work
