@@ -1,4 +1,6 @@
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-hero-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg" />
   <img src="./assets/profile-hero-light.svg" alt="Seung-Won Yu — Ideas, made tangible." width="100%" />
