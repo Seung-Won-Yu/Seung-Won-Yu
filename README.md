@@ -1,121 +1,93 @@
-<!-- GitHub profile README for Seung-Won Yu -->
-
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=Seung-Won-Yu&label=Profile%20views&color=8BA3A7&style=flat" alt="Profile views" />
-</p>
-
-<h1 align="center">유승원 · Seung-Won Yu</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg" />
+  <img src="./assets/profile-hero-light.svg" alt="Seung-Won Yu — Ideas, made tangible." width="100%" />
+</picture>
 
 <p align="center">
-  Web games, AI-assisted work tools, and portfolio-ready prototypes.
+  <a href="https://seung-won-yu.github.io/codex-agent-kit/">Codex setup</a>
+  &nbsp;·&nbsp;
+  <a href="https://seung-won-yu.github.io/pocket-desk-os/">Latest product</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Seung-Won-Yu?tab=repositories">All projects</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
-    <img src="https://img.shields.io/badge/Portfolio-Repositories-111111?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
-    <img src="https://img.shields.io/badge/Codex-Agent%20Workflow-2F3A3D?style=for-the-badge&logo=openai&logoColor=white" alt="Codex Agent Kit" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-    <img src="https://img.shields.io/badge/Game-PangPang%20Anipang-8BA3A7?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
-  </a>
-</p>
+## What I make
 
-<img src="./assets/about-seungwon.svg" alt="About Seung-Won terminal card" width="100%" />
+아이디어를 설명에만 남겨두지 않고, 직접 만지고 실행할 수 있는 결과물로 만듭니다.
 
-## What I Build
+- **AI workflows** — 거친 요청을 명확한 실행과 검증으로 연결하는 에이전트 운영 체계
+- **Browser-native products** — 설치 없이 바로 경험할 수 있는 인터랙티브 웹 제품
+- **Playable experiments** — 짧게 시작해 완성도 있는 플레이 흐름으로 발전시키는 게임 프로토타입
 
-```text
-small idea -> playable prototype -> cleaner UX -> polished README -> portfolio piece
-```
-
-| Focus | What it means |
-| --- | --- |
-| Playable web games | Match loops, simple feedback, ranking-ready structure, mobile-friendly interaction |
-| AI workroom tools | Research flows, file previews, artifacts, archive recovery, sharing, admin operations |
-| Codex agent setup | Lean skills, routing rules, image direction, senior engineering review gates |
-| Project polish | Better READMEs, preview images, badges, screenshots, and GitHub presentation |
-
-## Stack
-
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,ts,vite,firebase,js,html,css,python,git,github,nodejs,nextjs,figma,cloudflare,supabase" alt="Tech stack icons" />
-  </a>
-</p>
-
-## Selected Work
-
-### EST.AI Workroom Portal
-
-Private internal workroom portal for AI artifacts, research outputs, file previews, team sharing, archive recovery, and admin operations.
-
-<img src="./assets/workroom-portal-preview.png" alt="EST.AI Workroom Portal dashboard preview" width="100%" />
-
-### Playable Browser Games
+## Selected work
 
 <table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-        <img src="https://raw.githubusercontent.com/Seung-Won-Yu/pangpang-anipang/main/docs/images/pangpang-anipang-home.png" alt="PangPang Anipang preview" width="100%" />
-      </a>
+    <td width="50%" valign="top">
+      <h3>Codex Agent Kit</h3>
+      <p>
+        실제로 사용하는 개인 Codex 설정의 source of truth.
+        거친 요청 보정, native skill routing, 제한된 에이전트 위임과 최종 검증을 하나의 설치 흐름으로 정리했습니다.
+      </p>
+      <p>
+        <a href="https://seung-won-yu.github.io/codex-agent-kit/"><strong>View live</strong></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Seung-Won-Yu/codex-agent-kit">Source</a>
+      </p>
     </td>
-    <td width="50%">
-      <a href="https://github.com/Seung-Won-Yu/apple-burst">
-        <img src="https://raw.githubusercontent.com/Seung-Won-Yu/apple-burst/main/docs/images/apple-burst-home.png" alt="Apple Burst preview" width="100%" />
-      </a>
+    <td width="50%" valign="top">
+      <h3>PocketDesk OS</h3>
+      <p>
+        창 관리자, 파일 시스템, 메모장, 그림판과 게임까지 브라우저 안에서 실제로 동작하는 React 기반 웹 데스크톱입니다.
+      </p>
+      <p>
+        <a href="https://seung-won-yu.github.io/pocket-desk-os/"><strong>Open desktop</strong></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Seung-Won-Yu/pocket-desk-os">Source</a>
+      </p>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <strong><a href="https://github.com/Seung-Won-Yu/pangpang-anipang">PangPang Anipang</a></strong><br />
-      React, TypeScript, Vite, Firebase<br />
-      Match-style web game prototype with Firebase-backed structure.
+    <td width="50%" valign="top">
+      <h3>Rune Drift Survivors</h3>
+      <p>
+        React Three Fiber로 만든 3D 브라우저 로그라이트.
+        자동 전투, 성장 선택, 시너지와 보스전이 하나의 5분 플레이 루프로 이어집니다.
+      </p>
+      <p>
+        <a href="https://seung-won-yu.github.io/rune-drift-survivors/"><strong>Play game</strong></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Seung-Won-Yu/rune-drift-survivors">Source</a>
+      </p>
     </td>
-    <td width="50%">
-      <strong><a href="https://github.com/Seung-Won-Yu/apple-burst">Apple Burst</a></strong><br />
-      HTML, JavaScript, optional Firebase ranking<br />
-      Static browser apple-burst game focused on quick play and score flow.
+    <td width="50%" valign="top">
+      <h3>Apple Burst</h3>
+      <p>
+        합이 10이 되는 사과를 드래그해 터뜨리는 캐주얼 브라우저 게임.
+        반응형 캔버스와 Firebase 기반 랭킹 흐름을 갖췄습니다.
+      </p>
+      <p>
+        <a href="https://seung-won-yu.github.io/apple-burst/"><strong>Play game</strong></a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Seung-Won-Yu/apple-burst">Source</a>
+      </p>
     </td>
   </tr>
 </table>
 
-### Codex Agent Kit
+## How I work
 
-<a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
-  <img src="https://img.shields.io/badge/View-Codex%20Agent%20Kit-111111?style=for-the-badge&logo=github&logoColor=white" alt="Codex Agent Kit" />
-</a>
+```text
+rough idea → clear scope → working slice → browser verification → documented release
+```
 
-Personal Codex setup for turning rough requests into cleaner execution:
+빠르게 만드는 것보다, 실제로 동작하고 다시 설명할 수 있는 상태까지 마무리하는 것을 중요하게 생각합니다.
 
-- 102 lean skills instead of a noisy skill pile
-- fast `skill-router` paths by task type
-- `media-image-director` for Codex-native image prompts and README visuals
-- senior engineering lenses for backend, frontend, review, and ship checks
+`TypeScript` · `React` · `Vite` · `Three.js` · `Firebase` · `Supabase` · `Python` · `GitHub Actions`
 
-## Quick Links
+---
 
-<p>
-  <a href="https://github.com/Seung-Won-Yu/pangpang-anipang">
-    <img src="https://img.shields.io/badge/PangPang%20Anipang-React%20Game-8BA3A7?style=for-the-badge&logo=react&logoColor=111111" alt="PangPang Anipang" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu/apple-burst">
-    <img src="https://img.shields.io/badge/Apple%20Burst-Browser%20Game-E7B37C?style=for-the-badge&logo=html5&logoColor=111111" alt="Apple Burst" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu/codex-agent-kit">
-    <img src="https://img.shields.io/badge/Codex%20Agent%20Kit-Agent%20Workflow-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Codex Agent Kit" />
-  </a>
-  <a href="https://github.com/Seung-Won-Yu?tab=repositories">
-    <img src="https://img.shields.io/badge/More-Repositories-2F3A3D?style=for-the-badge&logo=github&logoColor=white" alt="More repositories" />
-  </a>
+<p align="center">
+  <sub>Small ideas, thoughtfully shipped.</sub>
 </p>
-
-## Contribution Skyline
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution skyline" width="100%" />
-</picture>
