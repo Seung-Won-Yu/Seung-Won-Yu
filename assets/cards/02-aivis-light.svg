@@ -10,7 +10,7 @@
   <rect width="600" height="400" rx="24" fill="url(#g02ls)"/>
   <rect width="600" height="400" rx="24" fill="url(#g02lg)"/>
   <rect x=".5" y=".5" width="599" height="399" rx="23.5" stroke="#D0D7DE"/>
-  <text x="48" y="76" fill="#0969DA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">02 · AI SYSTEM</text>
+  <text x="48" y="76" fill="#0969DA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">03 · AI SYSTEM</text>
   <text x="46" y="136" fill="#1F2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="38" font-weight="700" letter-spacing="-1.2">AIVIS</text>
   <text x="48" y="198" fill="#656D76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">AI 기반 산업안전 통합 관제 시스템.</text><text x="48" y="238" fill="#656D76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">PPE 착용·낙상 감지, 얼굴 식별, 실시간 대시보드를</text><text x="48" y="278" fill="#656D76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">하나의 관제 흐름으로 묶었습니다.</text>
   <line x1="48" y1="330" x2="552" y2="330" stroke="#D0D7DE"/>

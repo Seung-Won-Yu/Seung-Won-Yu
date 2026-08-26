@@ -10,7 +10,7 @@
   <rect width="600" height="400" rx="24" fill="url(#g06ds)"/>
   <rect width="600" height="400" rx="24" fill="url(#g06dg)"/>
   <rect x=".5" y=".5" width="599" height="399" rx="23.5" stroke="#30363D"/>
-  <text x="48" y="76" fill="#2997FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">06 · PLAY</text>
+  <text x="48" y="76" fill="#2997FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">07 · PLAY</text>
   <text x="46" y="136" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="38" font-weight="700" letter-spacing="-1.2">Rune Drift Survivors</text>
   <text x="48" y="198" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">React Three Fiber 3D 브라우저 로그라이트.</text><text x="48" y="238" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">자동 전투·성장 선택·시너지·보스전이</text><text x="48" y="278" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">하나의 5분 플레이 루프로 이어집니다.</text>
   <line x1="48" y1="330" x2="552" y2="330" stroke="#30363D"/>

@@ -26,11 +26,14 @@
 ## Selected work
 
 <p align="center">
+  <a href="https://github.com/Seung-Won-Yu/workroom-portal-public"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/00-workroom-portal-dark.svg" /><img width="49%" src="./assets/cards/00-workroom-portal-light.svg" alt="Workroom Portal — 팀 산출물 거버넌스 포털" /></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/01-edgelab-dark.svg" /><img width="49%" src="./assets/cards/01-edgelab-light.svg" alt="edgelab — 미국주식 4전략 모의투자 검증 랩" /></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/02-aivis-dark.svg" /><img width="49%" src="./assets/cards/02-aivis-light.svg" alt="AIVIS — AI 산업안전 통합 관제" /></picture>
 </p>
 <p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/02-aivis-dark.svg" /><img width="49%" src="./assets/cards/02-aivis-light.svg" alt="AIVIS — AI 산업안전 통합 관제" /></picture>
   <a href="https://github.com/Seung-Won-Yu/autolabel"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/03-autolabel-dark.svg" /><img width="49%" src="./assets/cards/03-autolabel-light.svg" alt="autolabel — 로컬 오토라벨링 도구" /></picture></a>
+</p>
+<p align="center">
   <a href="https://seung-won-yu.github.io/codex-agent-kit/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/04-codex-agent-kit-dark.svg" /><img width="49%" src="./assets/cards/04-codex-agent-kit-light.svg" alt="Codex Agent Kit" /></picture></a>
 </p>
 <p align="center">
