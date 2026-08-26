@@ -3,7 +3,7 @@
   <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg" />
-  <img src="./assets/profile-hero-light.svg" alt="Seung-Won Yu — Ideas, made tangible." width="100%" />
+  <img src="./assets/profile-hero-light.svg" alt="Seung-Won Yu — Ideas, made tangible." />
 </picture>
 
 <p align="center">
@@ -25,86 +25,18 @@
 
 ## Selected work
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 01 · edgelab
-
-<img src="https://img.shields.io/badge/AI_SYSTEM-2997FF?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Python-30363D?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/private-484F58?style=flat-square" alt="" />
-
-미국주식 4전략 모의투자 검증 랩. 실주문 경로가 없는 paper-only 구조에서
-모든 판단을 불변 저널에 남기고, 규칙이 바뀌면 성적표를 0에서 다시
-씁니다(파라미터 세대 분리). 보수적 가상체결 · 거래일 캘린더 기반 시세
-두절 방어 · USD 손익 판정 · **285+ 회귀 테스트**. 내부 에이전트와 외부
-모델을 감사자로 반복 투입해 발견을 코드 대조로 판정·반영합니다.
-
-</td>
-<td width="50%" valign="top">
-
-### 02 · AIVIS
-
-<img src="https://img.shields.io/badge/AI_SYSTEM-2997FF?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Python-30363D?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/private-484F58?style=flat-square" alt="" />
-
-AI 기반 산업안전 통합 관제 시스템. PPE(보호구) 착용·낙상 감지, 얼굴
-식별, 실시간 대시보드를 하나의 관제 흐름으로 묶었습니다.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 03 · [autolabel](https://github.com/Seung-Won-Yu/autolabel)
-
-<img src="https://img.shields.io/badge/AI_TOOLING-2997FF?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/Python-30363D?style=flat-square" alt="" />
-
-프롬프트 한 줄에서 전용 모델까지 — 로컬에서 돌아가는 오토라벨링 도구.
-Grounding DINO + SAM 으로 라벨을 만들고 자동 파인튜닝까지 이어집니다.
-
-**[Source ↗](https://github.com/Seung-Won-Yu/autolabel)**
-
-</td>
-<td width="50%" valign="top">
-
-### 04 · [Codex Agent Kit](https://seung-won-yu.github.io/codex-agent-kit/)
-
-<img src="https://img.shields.io/badge/AI_TOOLING-2997FF?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/live-2DA44E?style=flat-square" alt="" />
-
-실제로 사용하는 개인 Codex 설정의 source of truth. 거친 요청 보정,
-native skill routing, 제한된 에이전트 위임과 최종 검증을 하나의 설치
-흐름으로 정리했습니다.
-
-**[View live ↗](https://seung-won-yu.github.io/codex-agent-kit/)** · [Source](https://github.com/Seung-Won-Yu/codex-agent-kit)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 05 · [PocketDesk OS](https://seung-won-yu.github.io/pocket-desk-os/)
-
-<img src="https://img.shields.io/badge/PRODUCT-2997FF?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/TypeScript-30363D?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/live-2DA44E?style=flat-square" alt="" />
-
-창 관리자, 파일 시스템, 메모장, 그림판과 게임까지 브라우저 안에서
-실제로 동작하는 React 기반 웹 데스크톱입니다.
-
-**[Open desktop ↗](https://seung-won-yu.github.io/pocket-desk-os/)** · [Source](https://github.com/Seung-Won-Yu/pocket-desk-os)
-
-</td>
-<td width="50%" valign="top">
-
-### 06 · [Rune Drift Survivors](https://seung-won-yu.github.io/rune-drift-survivors/)
-
-<img src="https://img.shields.io/badge/PLAY-2997FF?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/React_Three_Fiber-30363D?style=flat-square" alt="" /> <img src="https://img.shields.io/badge/live-2DA44E?style=flat-square" alt="" />
-
-React Three Fiber로 만든 3D 브라우저 로그라이트. 자동 전투, 성장 선택,
-시너지와 보스전이 하나의 5분 플레이 루프로 이어집니다.
-
-**[Play game ↗](https://seung-won-yu.github.io/rune-drift-survivors/)** · [Source](https://github.com/Seung-Won-Yu/rune-drift-survivors)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/01-edgelab-dark.svg" /><img width="49%" src="./assets/cards/01-edgelab-light.svg" alt="edgelab — 미국주식 4전략 모의투자 검증 랩" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/02-aivis-dark.svg" /><img width="49%" src="./assets/cards/02-aivis-light.svg" alt="AIVIS — AI 산업안전 통합 관제" /></picture>
+</p>
+<p align="center">
+  <a href="https://github.com/Seung-Won-Yu/autolabel"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/03-autolabel-dark.svg" /><img width="49%" src="./assets/cards/03-autolabel-light.svg" alt="autolabel — 로컬 오토라벨링 도구" /></picture></a>
+  <a href="https://seung-won-yu.github.io/codex-agent-kit/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/04-codex-agent-kit-dark.svg" /><img width="49%" src="./assets/cards/04-codex-agent-kit-light.svg" alt="Codex Agent Kit" /></picture></a>
+</p>
+<p align="center">
+  <a href="https://seung-won-yu.github.io/pocket-desk-os/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/05-pocket-desk-os-dark.svg" /><img width="49%" src="./assets/cards/05-pocket-desk-os-light.svg" alt="PocketDesk OS — 브라우저 웹 데스크톱" /></picture></a>
+  <a href="https://seung-won-yu.github.io/rune-drift-survivors/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/06-rune-drift-dark.svg" /><img width="49%" src="./assets/cards/06-rune-drift-light.svg" alt="Rune Drift Survivors — 3D 브라우저 로그라이트" /></picture></a>
+</p>
 
 <details>
 <summary><b>More experiments</b></summary>
