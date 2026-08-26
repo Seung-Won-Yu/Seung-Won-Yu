@@ -10,7 +10,7 @@
   <rect width="600" height="400" rx="24" fill="url(#g05ls)"/>
   <rect width="600" height="400" rx="24" fill="url(#g05lg)"/>
   <rect x=".5" y=".5" width="599" height="399" rx="23.5" stroke="#D0D7DE"/>
-  <text x="48" y="76" fill="#0969DA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">06 · PRODUCT</text>
+  <text x="48" y="76" fill="#0969DA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">05 · PRODUCT</text>
   <text x="46" y="136" fill="#1F2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="38" font-weight="700" letter-spacing="-1.2">PocketDesk OS</text>
   <text x="48" y="198" fill="#656D76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">창 관리자, 파일 시스템, 메모장, 그림판과 게임까지</text><text x="48" y="238" fill="#656D76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">브라우저 안에서 실제로 동작하는</text><text x="48" y="278" fill="#656D76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">React 웹 데스크톱입니다.</text>
   <line x1="48" y1="330" x2="552" y2="330" stroke="#D0D7DE"/>

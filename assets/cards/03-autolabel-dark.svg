@@ -10,7 +10,7 @@
   <rect width="600" height="400" rx="24" fill="url(#g03ds)"/>
   <rect width="600" height="400" rx="24" fill="url(#g03dg)"/>
   <rect x=".5" y=".5" width="599" height="399" rx="23.5" stroke="#30363D"/>
-  <text x="48" y="76" fill="#2997FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">04 · AI TOOLING</text>
+  <text x="48" y="76" fill="#2997FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">03 · AI TOOLING</text>
   <text x="46" y="136" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="38" font-weight="700" letter-spacing="-1.2">autolabel</text>
   <text x="48" y="198" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">프롬프트 한 줄에서 전용 모델까지 — 로컬 오토라벨링.</text><text x="48" y="238" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">Grounding DINO + SAM 으로 라벨을 만들고</text><text x="48" y="278" fill="#8C959F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" font-weight="500">자동 파인튜닝까지 이어집니다.</text>
   <line x1="48" y1="330" x2="552" y2="330" stroke="#30363D"/>

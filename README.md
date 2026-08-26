@@ -26,25 +26,23 @@
 ## Selected work
 
 <p align="center">
-  <a href="https://github.com/Seung-Won-Yu/workroom-portal-public"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/00-workroom-portal-dark.svg" /><img width="49%" src="./assets/cards/00-workroom-portal-light.svg" alt="Workroom Portal — 팀 산출물 거버넌스 포털" /></picture></a>
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/01-edgelab-dark.svg" /><img width="49%" src="./assets/cards/01-edgelab-light.svg" alt="edgelab — 미국주식 4전략 모의투자 검증 랩" /></picture>
-</p>
-<p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/02-aivis-dark.svg" /><img width="49%" src="./assets/cards/02-aivis-light.svg" alt="AIVIS — AI 산업안전 통합 관제" /></picture>
-  <a href="https://github.com/Seung-Won-Yu/autolabel"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/03-autolabel-dark.svg" /><img width="49%" src="./assets/cards/03-autolabel-light.svg" alt="autolabel — 로컬 오토라벨링 도구" /></picture></a>
 </p>
 <p align="center">
+  <a href="https://github.com/Seung-Won-Yu/autolabel"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/03-autolabel-dark.svg" /><img width="49%" src="./assets/cards/03-autolabel-light.svg" alt="autolabel — 로컬 오토라벨링 도구" /></picture></a>
   <a href="https://seung-won-yu.github.io/codex-agent-kit/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/04-codex-agent-kit-dark.svg" /><img width="49%" src="./assets/cards/04-codex-agent-kit-light.svg" alt="Codex Agent Kit" /></picture></a>
 </p>
 <p align="center">
   <a href="https://seung-won-yu.github.io/pocket-desk-os/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/05-pocket-desk-os-dark.svg" /><img width="49%" src="./assets/cards/05-pocket-desk-os-light.svg" alt="PocketDesk OS — 브라우저 웹 데스크톱" /></picture></a>
-  <a href="https://seung-won-yu.github.io/rune-drift-survivors/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/06-rune-drift-dark.svg" /><img width="49%" src="./assets/cards/06-rune-drift-light.svg" alt="Rune Drift Survivors — 3D 브라우저 로그라이트" /></picture></a>
+  <a href="https://github.com/Seung-Won-Yu/workroom-portal-public"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/00-workroom-portal-dark.svg" /><img width="49%" src="./assets/cards/00-workroom-portal-light.svg" alt="Workroom Portal — 팀이 함께 쓰는 AI 에이전트 워크룸" /></picture></a>
 </p>
 
 <details>
 <summary><b>More experiments</b></summary>
 <br/>
 
+- **[Rune Drift Survivors](https://seung-won-yu.github.io/rune-drift-survivors/)** — React Three Fiber 3D 브라우저 로그라이트, 5분 플레이 루프 ([source](https://github.com/Seung-Won-Yu/rune-drift-survivors))
 - **[Apple Burst](https://seung-won-yu.github.io/apple-burst/)** — 합이 10이 되는 사과를 터뜨리는 캐주얼 게임, Firebase 랭킹 ([source](https://github.com/Seung-Won-Yu/apple-burst))
 - **[PangPang Anipang](https://github.com/Seung-Won-Yu/pangpang-anipang)** — React + TypeScript 매치 게임 프로토타입
 - **[cart-ocr](https://github.com/Seung-Won-Yu/cart-ocr)** — 장바구니 영수증 OCR 실험
