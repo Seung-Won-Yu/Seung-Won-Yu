@@ -18,9 +18,9 @@
   <text x="80" y="206" fill="#1D1D1F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="70" font-weight="700" letter-spacing="-3.2">Ideas, made tangible.</text>
   <text x="84" y="266" fill="#0071E3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="600" letter-spacing="-1">생각을 작동하는 경험으로 만듭니다.</text>
   <line x1="84" y1="326" x2="1116" y2="326" stroke="#D2D2D7"/>
-  <text x="84" y="372" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500" letter-spacing=".2">AI WORKFLOWS</text>
-  <text x="271" y="372" fill="#AEAEB2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">·</text>
-  <text x="302" y="372" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500" letter-spacing=".2">BROWSER PRODUCTS</text>
-  <text x="532" y="372" fill="#AEAEB2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">·</text>
-  <text x="563" y="372" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500" letter-spacing=".2">PLAYABLE EXPERIMENTS</text>
+  <text x="84" y="372" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500" letter-spacing=".2">AI SYSTEMS</text>
+  <text x="248" y="372" fill="#AEAEB2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">·</text>
+  <text x="279" y="372" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500" letter-spacing=".2">BROWSER PRODUCTS</text>
+  <text x="509" y="372" fill="#AEAEB2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">·</text>
+  <text x="540" y="372" fill="#6E6E73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500" letter-spacing=".2">PLAYABLE EXPERIMENTS</text>
 </svg>
