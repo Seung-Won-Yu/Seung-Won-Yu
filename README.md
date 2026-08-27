@@ -59,11 +59,13 @@ rough idea → clear scope → working slice → verification in the real thing 
 빠르게 만드는 것보다, **실제로 동작하고 다시 설명할 수 있는 상태**까지
 마무리하는 것을 중요하게 생각합니다.
 
-- 화면이 있는 것은 브라우저에서 직접 조작해 확인하고, 수치가 있는 것은
-  손계산과 대조합니다
-- 고친 것은 회귀 테스트로 고정합니다 — 같은 결함이 되살아나면 테스트가
-  먼저 깨지도록
-- 내 코드도 믿지 않습니다 — 맥락 없는 감사자(에이전트·외부 모델)를
+- **직접 확인합니다** — 화면이 있는 것은 브라우저에서 조작해 보고, 수치가
+  있는 것은 손계산과 대조합니다
+- **고친 것은 고정합니다** — 회귀 테스트와 CI 로, 같은 결함이 되살아나면
+  테스트가 먼저 깨지도록
+- **내 코드도 믿지 않습니다** — 맥락 없는 감사자(에이전트·외부 모델)를
   붙이고, 그 발견을 코드 대조로 진짜/헛것 판정해 반영합니다
+- **공개 전에 지웁니다** — 사내 코드를 공개할 때는 조직·구성원 식별자를
+  전수 스캔으로 제거하고, 커밋 직전 같은 검사를 한 번 더 돌립니다
 
-`TypeScript` · `React` · `Vite` · `Three.js` · `Firebase` · `Supabase` · `Python` · `SQLite` · `systemd` · `GitHub Actions`
+`Python` · `TypeScript` · `React` · `Vite` · `Three.js` · `SQLite` · `Firebase` · `Supabase` · `systemd` · `GitHub Actions`
