@@ -63,39 +63,66 @@ def character(center, baseline, scale, face_left=False):
 
 
 def hero(dark, mobile):
-    ink, muted = ('#F0F6FC','#9DA7B3') if dark else ('#1F2328','#59636E')
-    line = '#303A47' if dark else '#D1D9E0'
-    accent = '#69B7FF' if dark else '#0969DA'
-    card = '#151D28' if dark else '#F6F8FA'
-    w,h = (640,456) if mobile else (1200,220)
+    # Keep one navy scene in both themes, with transparent space outside its
+    # frame for the character. All original project artwork stays unchanged.
+    ink,muted,blue = '#EDF5FF','#AABFD9','#7DBEFF'
+    edge = '#315984' if dark else '#294B74'
+    w,h = (640,620) if mobile else (1200,420)
     s = start(w,h,'Seung-Won Yu — AI systems, web products & games.',
               'Seung-Won Yu. AI 도구와 웹 제품, 브라우저 게임을 만들고 실제 동작과 검증 기록을 남깁니다. '
               'AI: 검수와 전용 모델 학습. Web: 상태 저장과 오프라인. Games: 5분 로그라이트. '
-              'Ash & Amber 캐릭터가 작업 영역 카드 앞으로 나와 한 걸음 움직인 뒤 잠시 쉽니다. 동작 줄이기 설정에서는 정지합니다.')
+              '네이비·블루 배너의 프레임 밖으로 큰 Ash & Amber 캐릭터가 나옵니다. '
+              '푸른 빛과 앰버 포인트가 흐르고 캐릭터가 한 걸음 움직인 뒤 쉽니다. 동작 줄이기 설정에서는 정지합니다.')
+    s += '''<defs>
+      <linearGradient id="navy-scene" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#0C1729"/><stop offset=".57" stop-color="#102746"/><stop offset="1" stop-color="#173B64"/></linearGradient>
+      <radialGradient id="blue-light"><stop stop-color="#3A91F0" stop-opacity=".38"/><stop offset="1" stop-color="#3A91F0" stop-opacity="0"/></radialGradient>
+      <radialGradient id="amber-light"><stop stop-color="#F4B34F" stop-opacity=".28"/><stop offset="1" stop-color="#F4B34F" stop-opacity="0"/></radialGradient>
+      <linearGradient id="portal-edge" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#37689B" stop-opacity=".15"/><stop offset=".6" stop-color="#80BFFF" stop-opacity=".85"/><stop offset="1" stop-color="#F2B45F" stop-opacity=".55"/></linearGradient>
+    </defs>
+    <style>
+      .scene-flow{stroke-dasharray:36 440;animation:scene-flow 12s linear infinite}
+      .scene-spark{animation:scene-spark 6s ease-in-out infinite}
+      @keyframes scene-flow{to{stroke-dashoffset:-952}}
+      @keyframes scene-spark{0%,100%{opacity:.35}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.scene-flow,.scene-spark{animation:none!important}}
+    </style>'''
     if mobile:
-        s += text(1,54,'Seung-Won Yu',44,ink,650,'letter-spacing="-1.5"')
-        s += text(3,91,'AI systems, web products & games.',24,muted)
-        s += text(3,144,'AI 도구·웹 제품·게임을 만들고,',28,ink,font=KOREAN)
-        s += text(3,182,'실제 동작과 검증 기록을 남깁니다.',28,ink,font=KOREAN)
-        s += f'<rect x="3.5" y="238.5" width="596" height="194" rx="16" fill="{card}" stroke="{line}"/>'
-        for y,label,description in [(282,'AI','검수·모델 학습'),(342,'Web','저장·오프라인'),(402,'Games','5분 로그라이트')]:
-            s += text(26,y,label,28,accent,600)
-            s += text(146,y,description,27,muted,font=KOREAN)
-        s += f'<ellipse cx="511" cy="438" rx="70" ry="6" fill="{line}" opacity=".4"/>'
-        s += character(508,436,.96,face_left=True)
+        s += f'<rect x="8.5" y="36.5" width="600" height="566" rx="24" fill="url(#navy-scene)" stroke="{edge}"/>'
+        s += '<ellipse cx="470" cy="442" rx="230" ry="205" fill="url(#blue-light)"/>'
+        s += '<path d="M344 580V441a119 119 0 0 1 238 0v139" fill="#234D7E" fill-opacity=".13" stroke="url(#portal-edge)" stroke-width="2"/>'
+        s += '<path d="M31 62H570M31 62V80M33 314H238L266 342V556H326M32 588H270L310 548" fill="none" stroke="#4B7CAC" stroke-opacity=".3"/>'
+        s += '<path class="scene-flow" d="M32 588H270L310 548H540" fill="none" stroke="#72B7FF" stroke-width="2" opacity=".7"/>'
+        s += '<path d="M9 112V64a27 27 0 0 1 27-27h63M535 603h47a27 27 0 0 0 27-27v-47" fill="none" stroke="#DCA75F" stroke-width="2" opacity=".8"/>'
+        s += text(36,129,'Seung-Won Yu',52,ink,650,'letter-spacing="-1.7"')
+        s += text(38,173,'AI systems, web products & games.',23,blue)
+        s += text(38,225,'AI 도구·웹 제품·게임을 만들고,',27,ink,font=KOREAN)
+        s += text(38,263,'실제 동작과 검증 기록을 남깁니다.',27,ink,font=KOREAN)
+        for y,label,description in [(374,'AI','검수·모델 학습'),(454,'Web','저장·오프라인'),(534,'Games','5분 로그라이트')]:
+            s += text(38,y,label,25,blue,600)
+            s += text(38,y+32,description,24,muted,font=KOREAN)
+        s += '<ellipse cx="384" cy="538" rx="91" ry="80" fill="url(#amber-light)"/>'
+        s += '<ellipse cx="482" cy="608" rx="110" ry="8" fill="#030B18" opacity=".45"/>'
+        s += character(476,610,1.16,face_left=True)
+        s += '<g class="scene-spark" fill="#F2B45F"><path d="m588 281 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/><circle cx="309" cy="354" r="2"/><circle cx="576" cy="542" r="2"/></g>'
     else:
-        s += text(1,54,'Seung-Won Yu',52,ink,650,'letter-spacing="-1.5"')
-        s += text(3,94,'AI systems, web products & browser games.',25,muted)
-        s += text(3,143,'AI 워크플로부터 웹 인터페이스와 게임까지,',23,ink,font=KOREAN)
-        s += text(3,178,'직접 써볼 수 있는 제품과 검증 기록을 만듭니다.',23,ink,font=KOREAN)
-        s += f'<rect x="708.5" y="46.5" width="462" height="150" rx="14" fill="{card}" stroke="{line}"/>'
-        for y,label,description in [(82,'AI','검수·모델 학습'),(126,'Web','저장·오프라인'),(170,'Games','5분 로그라이트')]:
-            s += text(734,y,label,22,accent,600)
-            s += text(822,y,description,20,muted,font=KOREAN)
-        s += f'<ellipse cx="1099" cy="208" rx="55" ry="5" fill="{line}" opacity=".4"/>'
-        s += character(1093,205,.76,face_left=True)
+        s += f'<rect x="8.5" y="68.5" width="1150" height="322" rx="24" fill="url(#navy-scene)" stroke="{edge}"/>'
+        s += '<ellipse cx="971" cy="232" rx="290" ry="220" fill="url(#blue-light)"/>'
+        s += '<path d="M812 371V228a157 157 0 0 1 314 0v143" fill="#376AA3" fill-opacity=".09" stroke="url(#portal-edge)" stroke-width="2"/>'
+        s += '<path d="M841 371V228a128 128 0 0 1 256 0v143" fill="none" stroke="#5D9DDD" stroke-opacity=".22"/>'
+        s += '<path d="M35 94H616L662 140H790M35 94V120M608 365H690L738 317H806M774 390 885 310M915 390 945 310M1056 390 1005 310M1158 390 1065 310M790 363H1158M824 337H1123" fill="none" stroke="#5B90C4" stroke-opacity=".24"/>'
+        s += '<path class="scene-flow" d="M35 94H616L662 140H790" fill="none" stroke="#78B9FF" stroke-width="2" opacity=".7"/>'
+        s += '<path d="M9 140V96a27 27 0 0 1 27-27h58M1070 391h62a27 27 0 0 0 27-27v-40" fill="none" stroke="#DCA75F" stroke-width="2" opacity=".9"/>'
+        s += text(48,169,'Seung-Won Yu',66,ink,650,'letter-spacing="-2.1"')
+        s += text(50,213,'AI systems, web products & browser games.',25,blue)
+        s += text(50,267,'AI 워크플로부터 웹 인터페이스와 게임까지,',25,ink,font=KOREAN)
+        s += text(50,305,'직접 써볼 수 있는 제품과 검증 기록을 만듭니다.',25,ink,font=KOREAN)
+        s += '<path d="M50 353h24" stroke="#F2B45F" stroke-width="2"/>'
+        s += text(88,360,'Design. Build. Verify.',20,muted)
+        s += '<ellipse cx="837" cy="316" rx="115" ry="103" fill="url(#amber-light)"/>'
+        s += '<ellipse cx="983" cy="402" rx="164" ry="10" fill="#030B18" opacity=".45"/>'
+        s += character(975,402,1.58,face_left=True)
+        s += '<g class="scene-spark" fill="#F2B45F"><path d="m1136 118 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/><path d="m772 229 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/><circle cx="740" cy="97" r="2"/><circle cx="1113" cy="332" r="2"/></g>'
     return s+'</svg>\n'
-
 
 def showcases():
     # A common 8:5 canvas and a 640px display cap avoid enlarging the
