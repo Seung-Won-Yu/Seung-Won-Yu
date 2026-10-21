@@ -16,10 +16,10 @@
 <p>
 <a href="https://seung-won-yu.github.io/autolabel/">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/autolabel-mobile-dark.svg" />
-    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/autolabel-mobile-light.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/autolabel-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/autolabel-light.svg" alt="autolabel 공개 검수 미리보기. PCB mAP50 0.963, 승인 300장·고정 홀드아웃·M4 Pro/MPS 자체 측정." />
+    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/autolabel-mobile-dark.svg" />
+    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/autolabel-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/autolabel-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/autolabel-light.svg" alt="autolabel 공개 검수 미리보기. PCB mAP50 0.963, 승인 300장·고정 홀드아웃·M4 Pro/MPS 자체 측정." />
   </picture>
 </a>
 </p>
@@ -39,10 +39,10 @@
 <p>
 <a href="https://github.com/Seung-Won-Yu/workroom-portal-public">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/workroom-portal-mobile-dark.svg" />
-    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/workroom-portal-mobile-light.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/workroom-portal-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/workroom-portal-light.svg" alt="Workroom Portal 공개판 관리자 대시보드. 명시적 공유와 개인·팀·관리자 접근 경계, 권한·경로·스트리밍 회귀 점검." />
+    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/workroom-portal-mobile-dark.svg" />
+    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/workroom-portal-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/workroom-portal-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/workroom-portal-light.svg" alt="Workroom Portal 공개판 관리자 대시보드. 명시적 공유와 개인·팀·관리자 접근 경계, 권한·경로·스트리밍 회귀 점검." />
   </picture>
 </a>
 </p>
@@ -62,10 +62,10 @@
 <p>
 <a href="https://seung-won-yu.github.io/pocket-desk-os/">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/pocket-desk-os-mobile-dark.svg" />
-    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/pocket-desk-os-mobile-light.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/pocket-desk-os-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/pocket-desk-os-light.svg" alt="PocketDesk OS 실행 화면. 17개 앱과 9단계 QA 게이트, 브라우저·접근성·오프라인 확인." />
+    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/pocket-desk-os-mobile-dark.svg" />
+    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/pocket-desk-os-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/pocket-desk-os-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/pocket-desk-os-light.svg" alt="PocketDesk OS 실행 화면. 17개 앱과 9단계 QA 게이트, 브라우저·접근성·오프라인 확인." />
   </picture>
 </a>
 </p>
@@ -85,10 +85,10 @@
 <p>
 <a href="https://seung-won-yu.github.io/rune-drift-survivors/">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/rune-drift-survivors-mobile-dark.svg" />
-    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/rune-drift-survivors-mobile-light.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/rune-drift-survivors-dark.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/49cacb46e7107e873c679413a88691b4420a53b1/assets/features/rune-drift-survivors-light.svg" alt="Ash & Amber 실제 전투 화면. 전투 모멘텀 패스 unit 75개·browser 20개 검증. 데스크톱 브라우저 3개 viewport 범위." />
+    <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/rune-drift-survivors-mobile-dark.svg" />
+    <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/rune-drift-survivors-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/rune-drift-survivors-dark.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/features/rune-drift-survivors-light.svg" alt="Ash & Amber 실제 전투 화면. 전투 모멘텀 패스 unit 75개·browser 20개 검증. 데스크톱 브라우저 3개 viewport 범위." />
   </picture>
 </a>
 </p>
@@ -105,14 +105,42 @@
 
 ## Approach
 
-- **흐름을 먼저 봅니다.** 입력에서 결과까지 이어지는 경로와 사람이 판단해야 하는 지점을 정리합니다.
-- **실제로 사용해 봅니다.** 저장·복원·실패·오프라인처럼 놓치기 쉬운 경로도 브라우저에서 확인합니다.
-- **고친 것은 기록합니다.** 발견한 결함은 회귀 테스트와 CI에 남기고, 측정 조건과 한계도 함께 적습니다.
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/approach-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/approach-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/approach-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/approach-light.svg" alt="만드는 방식. 흐름을 먼저 봅니다: 입력에서 결과까지 이어지는 경로와 사람이 판단해야 하는 지점을 정리합니다. 실제로 사용해 봅니다: 저장·복원·실패·오프라인 경로도 브라우저에서 확인합니다. 고친 것은 기록합니다: 발견한 결함을 회귀 테스트와 CI에 남기고 측정 조건과 한계를 기록합니다." />
+</picture>
+</p>
 
 ## More work
 
-- **[Codex Agent Kit](https://seung-won-yu.github.io/codex-agent-kit/)** — 요청의 의도를 실행·검증까지 연결하는 개인 Codex 설정과 스킬 구성. [소스](https://github.com/Seung-Won-Yu/codex-agent-kit)
-- **[blog-writing](https://github.com/Seung-Won-Yu/blog-writing)** — 후보 수집과 중복 제거를 거쳐 티스토리 발행용 초안을 만드는 파이프라인.
+<p>
+<a href="https://seung-won-yu.github.io/codex-agent-kit/">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/codex-agent-kit-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/codex-agent-kit-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/codex-agent-kit-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/codex-agent-kit-light.svg" alt="Codex Agent Kit — 요청의 의도를 실행·검증까지 연결하는 개인 Codex 설정과 스킬 구성." />
+</picture>
+</a>
+</p>
+
+[가이드 열기](https://seung-won-yu.github.io/codex-agent-kit/) &nbsp; · &nbsp; [소스](https://github.com/Seung-Won-Yu/codex-agent-kit)
+
+<p>
+<a href="https://github.com/Seung-Won-Yu/blog-writing">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/blog-writing-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/blog-writing-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/blog-writing-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/0e70ee5da028e4e31479150b73477a1985ed3147/assets/sections/blog-writing-light.svg" alt="blog-writing — 후보 수집과 중복 제거를 거쳐 티스토리 발행용 초안을 만드는 파이프라인." />
+</picture>
+</a>
+</p>
+
+[저장소 보기](https://github.com/Seung-Won-Yu/blog-writing)
 
 <details>
 <summary>비공개 작업에서 다룬 문제</summary>
