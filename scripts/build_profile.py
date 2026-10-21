@@ -60,17 +60,33 @@ def character(center, baseline, scale):
 
 def hero(dark, mobile):
     ink, muted = ('#F0F6FC','#9DA7B3') if dark else ('#1F2328','#59636E')
-    w,h = (640,176) if mobile else (1200,176)
-    s = start(w,h,'Seung-Won Yu — AI systems, web products & games.','Seung-Won Yu. AI 도구와 웹 제품, 브라우저 게임을 만듭니다. 작은 Ash & Amber 캐릭터가 한 걸음 움직인 뒤 잠시 쉽니다. 동작 줄이기 설정에서는 정지합니다.')
+    line = '#303A47' if dark else '#D1D9E0'
+    accent = '#69B7FF' if dark else '#0969DA'
+    w,h = (640,300) if mobile else (1200,200)
+    s = start(w,h,'Seung-Won Yu — AI systems, web products & games.',
+              'Seung-Won Yu. AI 도구와 웹 제품, 브라우저 게임을 만들고 실제 동작과 검증 기록을 남깁니다. '
+              'AI: 검수와 전용 모델 학습. Web: 상태 저장과 오프라인. Games: 5분 로그라이트. '
+              '작은 Ash & Amber 캐릭터가 한 걸음 움직인 뒤 잠시 쉽니다. 동작 줄이기 설정에서는 정지합니다.')
     if mobile:
-        s += text(1,62,'Seung-Won Yu',44,ink,650,'letter-spacing="-1.5"')
-        s += text(3,108,'AI systems, web products',24,muted)
-        s += text(3,143,'& browser games.',24,muted)
-        s += character(567,144,.39)
+        s += text(1,54,'Seung-Won Yu',44,ink,650,'letter-spacing="-1.5"')
+        s += text(3,91,'AI systems, web products & games.',24,muted)
+        s += text(3,144,'AI 도구·웹 제품·게임을 만들고,',28,ink,font=KOREAN)
+        s += text(3,182,'실제 동작과 검증 기록을 남깁니다.',28,ink,font=KOREAN)
+        s += f'<path d="M3 214H637" stroke="{line}"/>'
+        for x,label,description in [(3,'AI','검수·모델 학습'),(224,'Web','저장·오프라인'),(446,'Games','5분 로그라이트')]:
+            s += text(x,252,label,28,accent,600)
+            s += text(x,288,description,25,muted,font=KOREAN)
+        s += character(586,87,.30)
     else:
-        s += text(1,69,'Seung-Won Yu',52,ink,650,'letter-spacing="-1.5"')
-        s += text(3,119,'AI systems, web products & browser games.',25,muted)
-        s += character(1118,145,.49)
+        s += text(1,54,'Seung-Won Yu',52,ink,650,'letter-spacing="-1.5"')
+        s += text(3,94,'AI systems, web products & browser games.',25,muted)
+        s += text(3,143,'AI 워크플로부터 웹 인터페이스와 게임까지,',23,ink,font=KOREAN)
+        s += text(3,178,'직접 써볼 수 있는 제품과 검증 기록을 만듭니다.',23,ink,font=KOREAN)
+        s += f'<path d="M722 12V180" stroke="{line}"/>'
+        for y,label,description in [(43,'AI','검수와 전용 모델 학습'),(97,'Web','상태 저장과 오프라인'),(151,'Games','5분 로그라이트')]:
+            s += text(758,y,label,23,accent,600)
+            s += text(852,y,description,22,muted,font=KOREAN)
+        s += character(1145,178,.34)
     return s+'</svg>\n'
 
 
