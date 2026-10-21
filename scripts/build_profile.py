@@ -74,23 +74,28 @@ def hero(dark, mobile):
 
 
 def showcases():
-    # Show the project interfaces, without adding another headline or poster.
-    s = start(1200,827,'autolabel — public review preview','autolabel의 공개 검수 미리보기. 모델 초안, PCB 결함 샘플, 검수할 어노테이션을 함께 보여줍니다.')
-    s += '<defs><clipPath id="screen"><rect width="1200" height="827" rx="10"/></clipPath></defs><g clip-path="url(#screen)">'
-    s += crop('autolabel.png',0,0,1200,827,'515 122 640 441',(1200,630))
-    yield 'autolabel',s+'</g></svg>\n'
-
-    s = start(1200,675,'Workroom Portal — public administrator preview','조직과 구성원 식별자를 예시 값으로 바꾼 공개판의 관리자 대시보드.')
-    s += '<defs><clipPath id="screen"><rect width="1200" height="675" rx="10"/></clipPath></defs><g clip-path="url(#screen)">'
-    yield 'workroom-portal',s+image('workroom.png',0,0,1200,675)+'</g></svg>\n'
-
-    s = start(1200,630,'PocketDesk OS — browser desktop','PocketDesk OS 화면. 창, 파일, 앱과 작업 표시줄을 갖춘 브라우저 데스크톱.')
-    s += '<defs><clipPath id="screen"><rect width="1200" height="630" rx="10"/></clipPath></defs><g clip-path="url(#screen)">'
-    yield 'pocket-desk-os',s+image('pocketdesk.png',0,0,1200,630)+'</g></svg>\n'
-
-    s = start(1200,675,'Ash & Amber — actual gameplay','Rune Drift Survivors의 Ash & Amber 전투 화면. 한 판 5분의 Canvas 2D 브라우저 생존 게임.')
-    s += '<defs><clipPath id="screen"><rect width="1200" height="675" rx="10"/></clipPath></defs><g clip-path="url(#screen)">'
-    yield 'rune-drift-survivors',s+image('combat.jpg',0,0,1200,675)+'</g></svg>\n'
+    # A common 8:5 canvas and a 640px display cap avoid enlarging the
+    # 640px-wide autolabel source. Contain every interface, without cutting UI.
+    previews = [
+        ('autolabel','autolabel.png',(1200,630),'515 122 640 441',
+         'autolabel — public review preview',
+         '공개 검수 미리보기. 모델 초안, PCB 결함 샘플과 검수할 어노테이션.'),
+        ('workroom-portal','workroom.png',(1672,941),'0 0 1672 941',
+         'Workroom Portal — public administrator preview',
+         '조직과 구성원 식별자를 예시 값으로 바꾼 공개판의 관리자 대시보드.'),
+        ('pocket-desk-os','pocketdesk.png',(1200,630),'0 0 1200 630',
+         'PocketDesk OS — browser desktop',
+         '창, 파일, 앱과 작업 표시줄을 갖춘 브라우저 데스크톱.'),
+        ('rune-drift-survivors','combat.jpg',(1280,720),'0 0 1280 720',
+         'Ash & Amber — actual gameplay',
+         '한 판 5분의 Canvas 2D 브라우저 게임 Ash & Amber의 전투 화면.'),
+    ]
+    for name, source, size, viewbox, title, description in previews:
+        s = start(960,600,title,description)
+        s += '<rect x=".5" y=".5" width="959" height="599" rx="12" fill="#10151D" stroke="#28323F"/>'
+        s += '<svg x="16" y="16" width="928" height="568" viewBox="'+viewbox+'" preserveAspectRatio="xMidYMid meet">'
+        s += image(source,0,0,*size)+'</svg></svg>\n'
+        yield name,s
 
 
 if __name__ == '__main__':
