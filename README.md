@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-hero-mobile-dark.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
-  <img width="100%" src="./assets/profile-hero-light.svg" alt="Seung-Won Yu — Ideas, made tangible. 생각을 작동하는 경험으로 만듭니다." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-hero-mobile-dark.svg?v=studio-20261021" />
+  <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg?v=studio-20261021" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg?v=studio-20261021" />
+  <img width="100%" src="./assets/profile-hero-light.svg?v=studio-20261021" alt="Seung-Won Yu — Useful tools. Playful worlds. AI 도구와 게임 원화가 함께 놓인 작업실." />
 </picture>
 
 <p align="center">
@@ -15,10 +15,8 @@
   <a href="https://seung-won-yu.github.io/rune-drift-survivors/">Rune Drift Survivors</a>
 </p>
 
-<br />
-
-AI 자동화와 웹 제품을 만듭니다. 아이디어를 **실행 가능한 결과물**로 옮기고,
-**실제 동작까지 검증**합니다. 가끔은 그 결과물이 게임이 되기도 합니다.
+AI 도구와 웹 제품, 그리고 **직접 플레이할 수 있는 게임**을 만듭니다.
+아이디어를 **써볼 수 있는 것**으로 옮기고, 실제 동작까지 검증합니다.
 
 ## Selected work
 
@@ -27,7 +25,7 @@ AI 자동화와 웹 제품을 만듭니다. 아이디어를 **실행 가능한 �
 **모델이 초안을 만들고, 사람은 예외를 고칩니다.**
 
 <a href="https://seung-won-yu.github.io/autolabel/">
-  <img width="100%" src="./assets/showcase/autolabel.svg" alt="autolabel 미리보기 — 실제 PCB 결함 샘플의 모델 초안과 검수 화면" />
+  <img width="100%" src="./assets/showcase/autolabel.svg?v=studio-20261021" alt="autolabel 미리보기 — 실제 PCB 결함 샘플의 모델 초안과 검수 화면" />
 </a>
 
 이미지 라벨링을 초안 생성 → 예외 검수 → 전용 모델 학습으로 연결한 로컬 AI 도구입니다.
@@ -44,7 +42,7 @@ AI 자동화와 웹 제품을 만듭니다. 아이디어를 **실행 가능한 �
 **개인의 AI 작업을 팀이 함께 쓰는 결과물로.**
 
 <a href="https://github.com/Seung-Won-Yu/workroom-portal-public">
-  <img width="100%" src="./assets/showcase/workroom-portal.svg" alt="Workroom Portal 공개판 미리보기 — 팀 산출물과 보관함을 점검하는 관리자 대시보드" />
+  <img width="100%" src="./assets/showcase/workroom-portal.svg?v=studio-20261021" alt="Workroom Portal 공개판 미리보기 — 팀 산출물과 보관함을 점검하는 관리자 대시보드" />
 </a>
 
 리서치·개발·요약 에이전트에 요청하고, 결과를 개인 작업공간에서 팀 공유로 이어가는 포털입니다.
@@ -61,7 +59,7 @@ AI 자동화와 웹 제품을 만듭니다. 아이디어를 **실행 가능한 �
 **브라우저 탭 하나에 담은 작은 데스크톱.**
 
 <a href="https://seung-won-yu.github.io/pocket-desk-os/">
-  <img width="100%" src="./assets/showcase/pocket-desk-os.svg" alt="PocketDesk OS 실제 화면 — 배경화면과 내 PC, 휴지통, 작업 표시줄이 있는 웹 데스크톱" />
+  <img width="100%" src="./assets/showcase/pocket-desk-os.svg?v=studio-20261021" alt="PocketDesk OS 실제 화면 — 배경화면과 내 PC, 휴지통, 작업 표시줄이 있는 웹 데스크톱" />
 </a>
 
 창을 열고 옮기고, 가상 파일을 정리하고, 메모장·그림판·게임을 실행하는 웹 데스크톱입니다.
@@ -78,7 +76,7 @@ AI 자동화와 웹 제품을 만듭니다. 아이디어를 **실행 가능한 �
 **작은 숲에서 시작하는, 한 판 5분의 생존.**
 
 <a href="https://seung-won-yu.github.io/rune-drift-survivors/">
-  <img width="100%" src="./assets/showcase/rune-drift-survivors.svg" alt="Rune Drift Survivors의 현재 챕터 Ash & Amber — 숲속 동료 선택과 실제 전투 화면" />
+  <img width="100%" src="./assets/showcase/rune-drift-survivors.svg?v=studio-20261021" alt="Rune Drift Survivors의 현재 챕터 Ash & Amber — 게임 원화와 실제 전투 화면" />
 </a>
 
 동료를 고르고, 자동 전투로 경험치를 모으고, 무기를 진화시켜 보스에 도전하는 2D 브라우저 로그라이트입니다.
