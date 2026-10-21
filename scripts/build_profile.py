@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 SOURCE = ASSETS / "source"
 SANS = "Arial, 'Helvetica Neue', sans-serif"
+KOREAN = "Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
 
 
 def image(name, x, y, width, height, extra=""):
@@ -98,6 +99,66 @@ def showcases():
         yield name,s
 
 
+PROJECTS = [
+    dict(name='autolabel', source='autolabel.png', size=(1200,630), viewbox='515 122 640 441',
+         label='PCB 검출 모델 평가', metric='0.963', metric_size=76,
+         support='mAP50 · 승인 데이터 300장',
+         note='고정 홀드아웃 / M4 Pro · MPS', foot='단일 머신에서 자체 측정',
+         preview='공개 검수 미리보기', accent='#69B7FF', light_accent='#0969DA'),
+    dict(name='workroom-portal', source='workroom.png', size=(1672,941), viewbox='0 0 1672 941',
+         label='에이전트 작업공간의 접근 제어', metric='명시적 공유', metric_size=54,
+         support='개인 → 팀 공유 → 관리자',
+         note='권한·경로·스트리밍 회귀 점검', foot='공유한 결과만 팀 작업공간으로',
+         preview='공개판 관리자 대시보드', accent='#69B7FF', light_accent='#0969DA'),
+    dict(name='pocket-desk-os', source='pocketdesk.png', size=(1200,630), viewbox='0 0 1200 630',
+         label='브라우저 안의 데스크톱', metric='17개 앱', metric_size=62,
+         support='9단계 QA 게이트',
+         note='브라우저 흐름 / ARIA·포커스', foot='파일·ZIP부터 오프라인 재실행까지',
+         preview='PocketDesk OS 실행 화면', accent='#69B7FF', light_accent='#0969DA'),
+    dict(name='rune-drift-survivors', source='combat.jpg', size=(1280,720), viewbox='0 0 1280 720',
+         label='전투 모멘텀 패스의 검증 기록', metric='75 unit', metric_size=62,
+         support='20 browser 테스트',
+         note='데스크톱 브라우저 3개 viewport', foot='한 판 5분의 Canvas 2D 로그라이트',
+         preview='Ash & Amber 실제 전투 화면', accent='#69B7FF', light_accent='#0969DA'),
+]
+
+
+def feature(project, dark, mobile):
+    """A full-width preview and outcome, side by side or stacked on phones.
+
+    Keep the complete interface inside its viewport. At normal GitHub widths,
+    even the smallest (640px) source region is displayed below its native size.
+    Text is repeated in native README prose for search and text accessibility.
+    """
+    w,h = (640,688) if mobile else (1200,388)
+    ink,muted,line,bg = ('#F0F6FC','#AAB4C0','#303A47','#151B23') if dark else ('#1F2328','#59636E','#D1D9E0','#F6F8FA')
+    accent = project['accent'] if dark else project['light_accent']
+    s = start(w,h,project['preview']+' — '+project['metric'],
+              '。'.join(project[k] for k in ['label','metric','support','note','foot']))
+    s += f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="10" fill="{bg}" stroke="{line}"/>'
+    px,py,pw,ph = (14,14,612,344) if mobile else (14,14,640,360)
+    s += f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="4" fill="#10151D"/>'
+    s += f'<svg x="{px}" y="{py}" width="{pw}" height="{ph}" viewBox="{project["viewbox"]}" preserveAspectRatio="xMidYMid meet">'
+    s += image(project['source'],0,0,*project['size'])+'</svg>'
+    if mobile:
+        x=28
+        s += text(x,410,project['label'],27,muted,font=KOREAN)
+        s += text(x,484,project['metric'],min(project['metric_size'],64),ink,650,font=KOREAN)
+        s += text(x,537,project['support'],32,accent,600,font=KOREAN)
+        s += f'<path d="M28 565H612" stroke="{line}"/>'
+        s += text(x,611,project['note'],26,muted,font=KOREAN)
+        s += text(x,654,project['foot'],26,muted,font=KOREAN)
+    else:
+        x=698
+        s += text(x,68,project['label'],24,muted,font=KOREAN)
+        s += text(x,159,project['metric'],project['metric_size'],ink,650,font=KOREAN)
+        s += text(x,212,project['support'],29,accent,600,font=KOREAN)
+        s += f'<path d="M698 246H1168" stroke="{line}"/>'
+        s += text(x,294,project['note'],23,muted,font=KOREAN)
+        s += text(x,335,project['foot'],23,muted,font=KOREAN)
+    return s+'</svg>\n'
+
+
 if __name__ == '__main__':
     for dark in [False,True]:
         for mobile in [False,True]:
@@ -105,7 +166,13 @@ if __name__ == '__main__':
             (ASSETS/f'profile-hero-{suffix}.svg').write_text(hero(dark,mobile))
     for name,svg in showcases():
         (ASSETS/'showcase'/f'{name}.svg').write_text(svg)
-    paths = list(ASSETS.glob('profile-hero*.svg'))+list((ASSETS/'showcase').glob('*.svg'))
+    (ASSETS/'features').mkdir(exist_ok=True)
+    for project in PROJECTS:
+        for dark in [False,True]:
+            for mobile in [False,True]:
+                suffix=('mobile-' if mobile else '')+('dark' if dark else 'light')
+                (ASSETS/'features'/f'{project["name"]}-{suffix}.svg').write_text(feature(project,dark,mobile))
+    paths = list(ASSETS.glob('profile-hero*.svg'))+list((ASSETS/'showcase').glob('*.svg'))+list((ASSETS/'features').glob('*.svg'))
     for path in paths:
         ET.parse(path)
         print(f'{path.relative_to(ROOT)}: {path.stat().st_size // 1024} KiB')
