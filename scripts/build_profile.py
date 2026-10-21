@@ -41,7 +41,7 @@ ASH_FRAMES = [(13,21,236,239),(273,28,223,233),(531,20,223,242),(774,15,234,244)
               (12,279,236,238),(271,284,227,234),(531,281,222,237),(769,272,238,246)]
 
 
-def character(center, baseline, scale):
+def character(center, baseline, scale, face_left=False):
     css = []
     for i in range(8):
         begin, end = i * 5, (i + 1) * 5
@@ -52,9 +52,13 @@ def character(center, baseline, scale):
         css.append(f'.ash-{i}{{opacity:{1 if i == 0 else 0};animation:ash-{i} 3.2s steps(1,end) infinite}}@keyframes ash-{i}{{{frames}}}')
     css.append('@media(prefers-reduced-motion:reduce){.ash-pose{animation:none!important;opacity:0}.ash-0{opacity:1}}')
     s = '<style>' + ''.join(css) + '</style><defs>' + image('ash-motion.webp',0,0,1024,1536,'id="ash-atlas"') + '</defs>'
+    if face_left:
+        s += f'<g transform="translate({center*2} 0) scale(-1 1)">'
     for i, (x,y,w,h) in enumerate(ASH_FRAMES):
         left = center - (126 - x % 256) * scale
         s += f'<svg class="ash-pose ash-{i}" x="{left}" y="{baseline-h*scale}" width="{w*scale}" height="{h*scale}" viewBox="{x} {y} {w} {h}" overflow="hidden"><use href="#ash-atlas"/></svg>'
+    if face_left:
+        s += '</g>'
     return s
 
 
@@ -76,7 +80,8 @@ def hero(dark, mobile):
         for x,label,description in [(3,'AI','검수·모델 학습'),(224,'Web','저장·오프라인'),(446,'Games','5분 로그라이트')]:
             s += text(x,252,label,28,accent,600)
             s += text(x,288,description,25,muted,font=KOREAN)
-        s += character(586,87,.30)
+        s += f'<ellipse cx="586" cy="90" rx="27" ry="2.4" fill="{line}" opacity=".5"/>'
+        s += character(586,87,.30,face_left=True)
     else:
         s += text(1,54,'Seung-Won Yu',52,ink,650,'letter-spacing="-1.5"')
         s += text(3,94,'AI systems, web products & browser games.',25,muted)
@@ -86,7 +91,8 @@ def hero(dark, mobile):
         for y,label,description in [(43,'AI','검수와 전용 모델 학습'),(97,'Web','상태 저장과 오프라인'),(151,'Games','5분 로그라이트')]:
             s += text(758,y,label,23,accent,600)
             s += text(852,y,description,22,muted,font=KOREAN)
-        s += character(1145,178,.34)
+        s += f'<ellipse cx="1142" cy="146" rx="32" ry="2.8" fill="{line}" opacity=".5"/>'
+        s += character(1142,143,.34,face_left=True)
     return s+'</svg>\n'
 
 
