@@ -117,10 +117,10 @@
 <p>
 <a href="https://github.com/Seung-Won-Yu?tab=overview">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-mobile-dark.svg?v=20261021" />
-  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-mobile-light.svg?v=20261021" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-dark.svg?v=20261021" />
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-light.svg?v=20261021" alt="GitHub 활동 통계 — 최근 1년 기여, 공개 저장소, 받은 스타. 집계일은 카드에 표시됩니다." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/refs/heads/profile-stats/assets/activity/activity-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/refs/heads/profile-stats/assets/activity/activity-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/refs/heads/profile-stats/assets/activity/activity-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/refs/heads/profile-stats/assets/activity/activity-light.svg" alt="GitHub 활동 통계 — 최근 1년 기여, 공개 저장소, 받은 스타. 집계일은 카드에 표시됩니다." />
 </picture>
 </a>
 </p>
