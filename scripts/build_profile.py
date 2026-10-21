@@ -282,6 +282,56 @@ def more_project(project,dark,mobile):
     return s+'</svg>\n'
 
 
+def tech_stack(dark,mobile):
+    groups = [
+        ('AI·서버',['Python · FastAPI','PyTorch · SQLite']),
+        ('웹 인터페이스',['React · TypeScript','Vite']),
+        ('브라우저',['Canvas 2D · IndexedDB','PWA']),
+    ]
+    w,h=(640,292) if mobile else (1200,164)
+    s=panel(w,h,'기술 스택 — 공개 대표작에서 사용한 기술',
+            ' '.join(label+': '+', '.join(lines)+'.' for label,lines in groups),dark)
+    for i,(label,lines) in enumerate(groups):
+        if mobile:
+            y=46+i*92
+            s+=text(28,y,label,24,PORTFOLIO['blue'],600,font=KOREAN)
+            for n,line in enumerate(lines):
+                s+=text(236,y+n*36,line,26,PORTFOLIO['ink'])
+            if i<2:
+                s+=f'<path d="M28 {y+62}H612" stroke="#315984"/>'
+        else:
+            x=32+i*404
+            s+=text(x,42,label,22,PORTFOLIO['blue'],600,font=KOREAN)
+            for n,line in enumerate(lines):
+                s+=text(x,89+n*40,line,26,PORTFOLIO['ink'])
+            if i<2:
+                s+=f'<path d="M{x+370} 28V140" stroke="#315984"/>'
+    return s+'</svg>\n'
+
+
+def activity(stats,dark,mobile):
+    metrics=[('최근 1년 기여',stats['contributions_last_year']),
+             ('공개 저장소',stats['public_repositories']),
+             ('받은 스타',stats['stars_received'])]
+    w,h=(640,212) if mobile else (1200,174)
+    description='GitHub 활동 통계. '+'. '.join(label+': '+format(value,',') for label,value in metrics)+'. '+stats['as_of_date']+' 집계.'
+    s=panel(w,h,'GitHub 활동 통계',description,dark)
+    for i,(label,value) in enumerate(metrics):
+        x=28+i*216 if mobile else 32+i*404
+        s+=text(x,48 if mobile else 46,label,24 if mobile else 22,PORTFOLIO['blue'],font=KOREAN)
+        s+=text(x,113 if mobile else 104,format(value,','),48 if mobile else 44,PORTFOLIO['ink'],600)
+        if i<2:
+            split=x+(190 if mobile else 370)
+            s+=f'<path d="M{split} 28V118" stroke="#315984"/>'
+    if mobile:
+        s+='<path d="M28 142H612" stroke="#315984"/>'
+        s+=text(28,184,'최근 12개월 · '+stats['as_of_date']+' 집계',22,PORTFOLIO['muted'],font=KOREAN)
+    else:
+        s+='<path d="M32 128H1168" stroke="#315984"/>'
+        s+=text(32,153,'최근 12개월 기여 · 공개 저장소 기준 · '+stats['as_of_date']+' 집계',18,PORTFOLIO['muted'],font=KOREAN)
+    return s+'</svg>\n'
+
+
 if __name__ == '__main__':
     for dark in [False,True]:
         for mobile in [False,True]:
@@ -300,6 +350,7 @@ if __name__ == '__main__':
         for mobile in [False,True]:
             suffix=('mobile-' if mobile else '')+('dark' if dark else 'light')
             (ASSETS/'sections'/f'approach-{suffix}.svg').write_text(approach(dark,mobile))
+            (ASSETS/'sections'/f'tech-stack-{suffix}.svg').write_text(tech_stack(dark,mobile))
             for project in MORE_PROJECTS:
                 (ASSETS/'sections'/f'{project[0]}-{suffix}.svg').write_text(more_project(project,dark,mobile))
     paths = list(ASSETS.glob('profile-hero*.svg'))+list((ASSETS/'showcase').glob('*.svg'))+list((ASSETS/'features').glob('*.svg'))+list((ASSETS/'sections').glob('*.svg'))
