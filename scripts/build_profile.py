@@ -1,6 +1,8 @@
 """Build self-contained GitHub profile artwork from unchanged public project assets.
 
 Run with Python 3; no third-party packages or remote requests are required.
+Publish generated assets first, then pin README image URLs to that commit.
+Immutable image URLs avoid stale GitHub raw-branch image caches.
 """
 from base64 import b64encode
 from html import escape

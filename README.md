@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-hero-mobile-dark.svg?v=clean-20261021" />
-  <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg?v=clean-20261021" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg?v=clean-20261021" />
-  <img width="100%" src="./assets/profile-hero-light.svg?v=clean-20261021" alt="Seung-Won Yu — AI 도구, 웹 제품, 브라우저 게임을 만듭니다. 작은 Ash & Amber 캐릭터가 걷는 동작을 보여줍니다." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-light.svg" alt="Seung-Won Yu — AI 도구, 웹 제품, 브라우저 게임을 만듭니다. 작은 Ash & Amber 캐릭터가 걷는 동작을 보여줍니다." />
 </picture>
 
 AI 도구와 웹 제품, 직접 플레이할 수 있는 경험을 만듭니다.
@@ -17,7 +17,7 @@ AI 도구와 웹 제품, 직접 플레이할 수 있는 경험을 만듭니다.
 모델 초안에서 예외 검수와 전용 모델 학습까지 이어지는 **로컬 AI 라벨링 도구**입니다. 승인한 이미지만 학습에 쓰고, 같은 검증 분할에서 후보 모델과 현재 모델을 비교합니다.
 
 <a href="https://seung-won-yu.github.io/autolabel/">
-  <img width="100%" src="./assets/showcase/autolabel.svg?v=clean-20261021" alt="autolabel 공개 검수 미리보기 — 모델 초안, PCB 결함 샘플, 검수할 어노테이션" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/autolabel.svg" alt="autolabel 공개 검수 미리보기 — 모델 초안, PCB 결함 샘플, 검수할 어노테이션" />
 </a>
 
 <sub>Python · FastAPI · React · SQLite</sub>
@@ -39,7 +39,7 @@ AI 도구와 웹 제품, 직접 플레이할 수 있는 경험을 만듭니다.
 리서치·개발·요약 에이전트의 결과를 **개인 작업공간에서 팀 공유와 관리자 점검으로 연결하는 포털**입니다. 스킬 라우팅과 비동기 작업 큐, 파일 접근의 스코프 판정을 함께 다룹니다.
 
 <a href="https://github.com/Seung-Won-Yu/workroom-portal-public">
-  <img width="100%" src="./assets/showcase/workroom-portal.svg?v=clean-20261021" alt="Workroom Portal 공개판의 관리자 대시보드" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/workroom-portal.svg" alt="Workroom Portal 공개판의 관리자 대시보드" />
 </a>
 
 <sub>Python · React · TypeScript</sub>
@@ -61,7 +61,7 @@ AI 도구와 웹 제품, 직접 플레이할 수 있는 경험을 만듭니다.
 창과 파일, 기본 앱을 다루는 **브라우저 안의 데스크톱**입니다. 창·아이콘·테마·가상 파일을 IndexedDB에 보존하고, PWA로 설치할 수 있습니다.
 
 <a href="https://seung-won-yu.github.io/pocket-desk-os/">
-  <img width="100%" src="./assets/showcase/pocket-desk-os.svg?v=clean-20261021" alt="PocketDesk OS — 창, 파일, 기본 앱과 작업 표시줄이 있는 데스크톱 화면" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/pocket-desk-os.svg" alt="PocketDesk OS — 창, 파일, 기본 앱과 작업 표시줄이 있는 데스크톱 화면" />
 </a>
 
 <sub>React · TypeScript · Vite · IndexedDB · PWA</sub>
@@ -83,7 +83,7 @@ AI 도구와 웹 제품, 직접 플레이할 수 있는 경험을 만듭니다.
 동료를 고르고 무기를 진화시켜 숲의 보스에 도전하는 **한 판 5분의 2D 브라우저 로그라이트**입니다. 키보드와 터치를 지원하며, 전투 연출을 실제 타격·이동·시뮬레이션 시계에 연결했습니다.
 
 <a href="https://seung-won-yu.github.io/rune-drift-survivors/">
-  <img width="100%" src="./assets/showcase/rune-drift-survivors.svg?v=clean-20261021" alt="Ash & Amber의 실제 전투 화면 — 플레이어, 적과 전투 HUD" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/rune-drift-survivors.svg" alt="Ash & Amber의 실제 전투 화면 — 플레이어, 적과 전투 HUD" />
 </a>
 
 <sub>Canvas 2D · JavaScript · Vite</sub>
