@@ -11,12 +11,37 @@ AI 워크플로부터 웹 인터페이스와 게임까지, **직접 써볼 수 �
 
 ## Selected work
 
-| 대표작 | 핵심 결과 |
-| :--- | :--- |
-| <a href="#autolabel"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/autolabel.svg" alt="" /><br /><strong>autolabel</strong></a> | **PCB mAP50 0.963**<br><sub>승인 300장 · 고정 홀드아웃 · M4 Pro/MPS 자체 측정</sub> |
-| <a href="#workroom-portal"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/workroom-portal.svg" alt="" /><br /><strong>Workroom Portal</strong></a> | **개인 → 공유 → 관리자 접근 범위 분리**<br><sub>권한 밖 접근의 사유 기록 · 권한·경로·스트리밍 회귀</sub> |
-| <a href="#pocketdesk-os"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/pocket-desk-os.svg" alt="" /><br /><strong>PocketDesk OS</strong></a> | **17개 앱 · 9단계 QA 게이트**<br><sub>실제 브라우저 흐름, 접근성, 오프라인 재실행 확인 범위</sub> |
-| <a href="#rune-drift-survivors--ash--amber"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/rune-drift-survivors.svg" alt="" /><br /><strong>Rune Drift Survivors</strong></a> | **unit 75개 · browser 20개 검증 기록**<br><sub>전투 모멘텀 패스 · 데스크톱 브라우저에서 측정</sub> |
+<p>
+  <img align="left" width="96" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/autolabel.svg" alt="" />
+  <strong><a href="#autolabel">autolabel</a></strong><br />
+  <strong>PCB mAP50 0.963</strong><br />
+  <sub>승인 300장·홀드아웃·자체측정</sub>
+</p>
+<br clear="left" />
+
+<p>
+  <img align="left" width="96" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/workroom-portal.svg" alt="" />
+  <strong><a href="#workroom-portal">Workroom Portal</a></strong><br />
+  <strong>개인·공유·관리자 경계</strong><br />
+  <sub>권한·경로·스트리밍 회귀</sub>
+</p>
+<br clear="left" />
+
+<p>
+  <img align="left" width="96" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/pocket-desk-os.svg" alt="" />
+  <strong><a href="#pocketdesk-os">PocketDesk OS</a></strong><br />
+  <strong>17개 앱 · 9단계 QA</strong><br />
+  <sub>브라우저·접근성·오프라인</sub>
+</p>
+<br clear="left" />
+
+<p>
+  <img align="left" width="96" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/rune-drift-survivors.svg" alt="" />
+  <strong><a href="#rune-drift-survivors--ash--amber">Rune Drift Survivors</a></strong><br />
+  <strong>75 unit · 20 browser 검증</strong><br />
+  <sub>전투 패스·데스크톱 브라우저</sub>
+</p>
+<br clear="left" />
 
 ### autolabel
 
