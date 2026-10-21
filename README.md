@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-hero-mobile-dark.svg?v=studio-20261021" />
-  <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg?v=studio-20261021" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg?v=studio-20261021" />
-  <img width="100%" src="./assets/profile-hero-light.svg?v=studio-20261021" alt="Seung-Won Yu — Useful tools. Playful worlds. AI 도구와 게임 원화가 함께 놓인 작업실." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-hero-mobile-dark.svg?v=idle-20261021" />
+  <source media="(max-width: 600px)" srcset="./assets/profile-hero-mobile-light.svg?v=idle-20261021" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg?v=idle-20261021" />
+  <img width="100%" src="./assets/profile-hero-light.svg?v=idle-20261021" alt="Seung-Won Yu — Useful tools. Playful worlds. AI 도구와 게임 원화가 함께 놓인 작업실." />
 </picture>
 
 <p align="center">
