@@ -103,6 +103,30 @@
 
 <br />
 
+## Stack & activity
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/811ff9bd8bf6580f64a458ecff31051c137bcc3c/assets/sections/tech-stack-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/811ff9bd8bf6580f64a458ecff31051c137bcc3c/assets/sections/tech-stack-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/811ff9bd8bf6580f64a458ecff31051c137bcc3c/assets/sections/tech-stack-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/811ff9bd8bf6580f64a458ecff31051c137bcc3c/assets/sections/tech-stack-light.svg" alt="공개 대표작에서 사용한 기술. AI·서버: Python, FastAPI, PyTorch, SQLite. 웹 인터페이스: React, TypeScript, Vite. 브라우저: Canvas 2D, IndexedDB, PWA." />
+</picture>
+</p>
+
+<p>
+<a href="https://github.com/Seung-Won-Yu?tab=overview">
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/profile-stats/assets/activity/activity-light.svg" alt="GitHub 활동 통계 — 최근 1년 기여, 공개 저장소, 받은 스타. 집계일은 카드에 표시됩니다." />
+</picture>
+</a>
+</p>
+
+<sub>공개 프로젝트에서 사용한 기술과 GitHub 활동을 요약했습니다. 통계는 매일 갱신합니다.</sub>
+
 ## Approach
 
 <p>
