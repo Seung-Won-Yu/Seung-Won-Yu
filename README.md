@@ -1,102 +1,84 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-mobile-dark.svg" />
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-mobile-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-dark.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/profile-hero-light.svg" alt="Seung-Won Yu — AI 도구, 웹 제품, 브라우저 게임을 만듭니다. 작은 Ash & Amber 캐릭터가 걷는 동작을 보여줍니다." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-light.svg" alt="Seung-Won Yu — AI 도구, 웹 제품, 브라우저 게임을 만듭니다. 작은 Ash & Amber 캐릭터가 걷는 동작을 보여줍니다." />
 </picture>
 
-AI 도구와 웹 제품, 직접 플레이할 수 있는 경험을 만듭니다.
-제품 화면과 함께 설계 판단, 검증 기록, 실행 방법을 공개합니다.
+AI 워크플로부터 웹 인터페이스와 게임까지, **직접 써볼 수 있는 제품과 검증 기록**을 만듭니다.
 
 [대표작](#selected-work) &nbsp;&nbsp; [만드는 방식](#approach) &nbsp;&nbsp; [더 살펴보기](#more-work) &nbsp;&nbsp; [이메일](mailto:a98857283@gmail.com)
 
 ## Selected work
 
+| 대표작 | 핵심 결과 |
+| :--- | :--- |
+| <a href="#autolabel"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/autolabel.svg" alt="" /><br /><strong>autolabel</strong></a> | **PCB mAP50 0.963**<br><sub>승인 300장 · 고정 홀드아웃 · M4 Pro/MPS 자체 측정</sub> |
+| <a href="#workroom-portal"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/workroom-portal.svg" alt="" /><br /><strong>Workroom Portal</strong></a> | **개인 → 공유 → 관리자 접근 범위 분리**<br><sub>권한 밖 접근의 사유 기록 · 권한·경로·스트리밍 회귀</sub> |
+| <a href="#pocketdesk-os"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/pocket-desk-os.svg" alt="" /><br /><strong>PocketDesk OS</strong></a> | **17개 앱 · 9단계 QA 게이트**<br><sub>실제 브라우저 흐름, 접근성, 오프라인 재실행 확인 범위</sub> |
+| <a href="#rune-drift-survivors--ash--amber"><img width="80" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/rune-drift-survivors.svg" alt="" /><br /><strong>Rune Drift Survivors</strong></a> | **unit 75개 · browser 20개 검증 기록**<br><sub>전투 모멘텀 패스 · 데스크톱 브라우저에서 측정</sub> |
+
 ### autolabel
 
-모델 초안에서 예외 검수와 전용 모델 학습까지 이어지는 **로컬 AI 라벨링 도구**입니다. 승인한 이미지만 학습에 쓰고, 같은 검증 분할에서 후보 모델과 현재 모델을 비교합니다.
+모델이 만든 초안에서 **예외만 검수하고, 승인 데이터로 전용 모델을 학습**하는 로컬 AI 도구입니다.
+
+**핵심 결과 — PCB mAP50 0.963.** 승인 300장, 고정 홀드아웃·M4 Pro/MPS 단일 머신의 자체 측정입니다. 후보 모델과 현재 모델을 같은 분할에서 비교합니다.
 
 <a href="https://seung-won-yu.github.io/autolabel/">
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/autolabel.svg" alt="autolabel 공개 검수 미리보기 — 모델 초안, PCB 결함 샘플, 검수할 어노테이션" />
+  <img width="640" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/autolabel.svg" alt="autolabel 공개 검수 미리보기 — 모델 초안, PCB 결함 샘플, 검수할 어노테이션" />
 </a>
 
 <sub>Python · FastAPI · React · SQLite</sub>
 
-[제품 소개](https://seung-won-yu.github.io/autolabel/) &nbsp; · &nbsp; [소스와 실행 방법](https://github.com/Seung-Won-Yu/autolabel)
-
-<details>
-<summary>설계와 검증 근거</summary>
-
-- 결과에 모델·프롬프트·임계값의 출처를 남기며, 기본 경로는 필수 API 키 없이 동작합니다.
-- 고정 홀드아웃의 PCB 결함 실험에서 승인 300장으로 **mAP50 0.963**을 기록했습니다. M4 Pro/MPS 단일 머신의 자체 측정입니다. [측정 조건과 재현 방법](https://github.com/Seung-Won-Yu/autolabel#얼마나-잘-되나)
-
-</details>
+[제품 소개](https://seung-won-yu.github.io/autolabel/) &nbsp; · &nbsp; [소스](https://github.com/Seung-Won-Yu/autolabel) &nbsp; · &nbsp; [측정 조건과 재현 방법](https://github.com/Seung-Won-Yu/autolabel#얼마나-잘-되나)
 
 <br />
 
 ### Workroom Portal
 
-리서치·개발·요약 에이전트의 결과를 **개인 작업공간에서 팀 공유와 관리자 점검으로 연결하는 포털**입니다. 스킬 라우팅과 비동기 작업 큐, 파일 접근의 스코프 판정을 함께 다룹니다.
+리서치·개발·요약 에이전트의 결과를 **개인 작업공간에서 팀 공유와 관리자 점검으로 연결**하는 포털입니다.
+
+**핵심 구현 — 개인·공유·관리자 접근 범위 분리.** 명시적으로 공유한 결과만 팀으로 넘기고, 권한 밖 접근은 사유를 기록합니다. 권한·경로·스트리밍 회귀를 자체 점검에 묶었습니다.
 
 <a href="https://github.com/Seung-Won-Yu/workroom-portal-public">
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/workroom-portal.svg" alt="Workroom Portal 공개판의 관리자 대시보드" />
+  <img width="640" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/workroom-portal.svg" alt="Workroom Portal 공개판의 관리자 대시보드" />
 </a>
 
-<sub>Python · React · TypeScript</sub>
+<sub>Python · React · TypeScript · 공개판의 조직·구성원 식별자는 예시 값</sub>
 
-[공개판과 실행 방법](https://github.com/Seung-Won-Yu/workroom-portal-public) &nbsp; · &nbsp; [구조와 설계](https://github.com/Seung-Won-Yu/workroom-portal-public#구조)
-
-<details>
-<summary>설계와 검증 근거</summary>
-
-- 스코프 판정을 한 모듈에 모으고, 권한 밖 접근은 사유와 함께 기록합니다.
-- 권한·경로·스트리밍 회귀를 [자체 점검 절차](https://github.com/Seung-Won-Yu/workroom-portal-public#실행)에 고정했습니다. 공개판의 조직·구성원 식별자는 예시 값으로 치환했습니다.
-
-</details>
+[공개판과 실행 방법](https://github.com/Seung-Won-Yu/workroom-portal-public) &nbsp; · &nbsp; [권한 경계와 설계](https://github.com/Seung-Won-Yu/workroom-portal-public#권한-경계) &nbsp; · &nbsp; [점검 방법](https://github.com/Seung-Won-Yu/workroom-portal-public#실행)
 
 <br />
 
 ### PocketDesk OS
 
-창과 파일, 기본 앱을 다루는 **브라우저 안의 데스크톱**입니다. 창·아이콘·테마·가상 파일을 IndexedDB에 보존하고, PWA로 설치할 수 있습니다.
+창을 옮기고 파일을 정리하며 앱을 실행하는 **브라우저 안의 데스크톱**입니다. 창·아이콘·테마·가상 파일을 IndexedDB에 보존하고 PWA로 설치할 수 있습니다.
+
+**검증 범위 — 17개 앱 · 9단계 QA 게이트.** 파일·ZIP, 실제 브라우저 흐름, ARIA·포커스, 서비스워커의 오프라인 재실행을 하나의 확인 경로로 묶었습니다.
 
 <a href="https://seung-won-yu.github.io/pocket-desk-os/">
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/pocket-desk-os.svg" alt="PocketDesk OS — 창, 파일, 기본 앱과 작업 표시줄이 있는 데스크톱 화면" />
+  <img width="640" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/pocket-desk-os.svg" alt="PocketDesk OS — 창, 파일, 기본 앱과 작업 표시줄이 있는 데스크톱 화면" />
 </a>
 
 <sub>React · TypeScript · Vite · IndexedDB · PWA</sub>
 
-[데스크톱 열기](https://seung-won-yu.github.io/pocket-desk-os/) &nbsp; · &nbsp; [소스와 검증 방법](https://github.com/Seung-Won-Yu/pocket-desk-os)
-
-<details>
-<summary>설계와 검증 근거</summary>
-
-- 화면의 모양과 저장·복원되는 실제 작업 상태를 함께 다룹니다.
-- 파일·ZIP 단위 테스트, 브라우저 흐름, 17개 앱의 ARIA·포커스, 오프라인 재실행을 [9단계 QA 게이트](https://github.com/Seung-Won-Yu/pocket-desk-os#품질-확인)에 묶었습니다.
-
-</details>
+[데스크톱 열기](https://seung-won-yu.github.io/pocket-desk-os/) &nbsp; · &nbsp; [소스](https://github.com/Seung-Won-Yu/pocket-desk-os) &nbsp; · &nbsp; [QA 게이트](https://github.com/Seung-Won-Yu/pocket-desk-os#품질-확인)
 
 <br />
 
 ### Rune Drift Survivors · Ash &amp; Amber
 
-동료를 고르고 무기를 진화시켜 숲의 보스에 도전하는 **한 판 5분의 2D 브라우저 로그라이트**입니다. 키보드와 터치를 지원하며, 전투 연출을 실제 타격·이동·시뮬레이션 시계에 연결했습니다.
+동료를 고르고 무기를 진화시켜 숲의 보스에 도전하는 **한 판 5분의 2D 브라우저 로그라이트**입니다. 키보드·터치를 지원하고, 전투 연출을 실제 타격·이동 시계에 연결했습니다.
+
+**검증 기록 — unit 75개 · browser 20개.** 전투 모멘텀 패스의 데스크톱 브라우저 3개 viewport에서 p95 프레임 간격 16.7–16.8ms를 기록했습니다. 물리 휴대폰의 성능 측정은 아닙니다.
 
 <a href="https://seung-won-yu.github.io/rune-drift-survivors/">
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/6d9fc8c7e1e0eeb1b2e207d636f83e45a4073288/assets/showcase/rune-drift-survivors.svg" alt="Ash & Amber의 실제 전투 화면 — 플레이어, 적과 전투 HUD" />
+  <img width="640" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/showcase/rune-drift-survivors.svg" alt="Ash & Amber의 실제 전투 화면 — 플레이어, 적과 전투 HUD" />
 </a>
 
 <sub>Canvas 2D · JavaScript · Vite</sub>
 
-[게임 시작](https://seung-won-yu.github.io/rune-drift-survivors/) &nbsp; · &nbsp; [소스와 플레이 가이드](https://github.com/Seung-Won-Yu/rune-drift-survivors)
-
-<details>
-<summary>설계와 검증 근거</summary>
-
-- 동작 줄이기를 별도 처리해 연출이 판정이나 밸런스를 바꾸지 않게 했습니다.
-- [전투 모멘텀 검증 기록](https://github.com/Seung-Won-Yu/rune-drift-survivors/blob/main/docs/design/survivor-restart/42-COMBAT-MOMENTUM.md)에 unit 75개·browser 20개와 세 화면 크기의 프레임 측정을 남겼습니다. 측정 환경은 데스크톱 브라우저입니다.
-
-</details>
+[게임 시작](https://seung-won-yu.github.io/rune-drift-survivors/) &nbsp; · &nbsp; [소스](https://github.com/Seung-Won-Yu/rune-drift-survivors) &nbsp; · &nbsp; [전투·프레임 검증 기록](https://github.com/Seung-Won-Yu/rune-drift-survivors/blob/main/docs/design/survivor-restart/42-COMBAT-MOMENTUM.md#L12-L16)
 
 <br />
 
