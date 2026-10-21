@@ -15,6 +15,7 @@ ASSETS = ROOT / "assets"
 SOURCE = ASSETS / "source"
 SANS = "Arial, 'Helvetica Neue', sans-serif"
 KOREAN = "Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
+PORTFOLIO = dict(ink='#EDF5FF', muted='#AABFD9', blue='#7DBEFF', amber='#F2B45F')
 
 
 def image(name, x, y, width, height, extra=""):
@@ -181,31 +182,103 @@ def feature(project, dark, mobile):
     Text is repeated in native README prose for search and text accessibility.
     """
     w,h = (640,688) if mobile else (1200,388)
-    ink,muted,line,bg = ('#F0F6FC','#AAB4C0','#303A47','#151B23') if dark else ('#1F2328','#59636E','#D1D9E0','#F6F8FA')
-    accent = project['accent'] if dark else project['light_accent']
-    s = start(w,h,project['preview']+' — '+project['metric'],
-              '。'.join(project[k] for k in ['label','metric','support','note','foot']))
-    s += f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="10" fill="{bg}" stroke="{line}"/>'
+    ink,muted,blue,amber = (PORTFOLIO[k] for k in ['ink','muted','blue','amber'])
+    s = panel(w,h,project['preview']+' — '+project['metric'],
+              '。'.join(project[k] for k in ['label','metric','support','note','foot']),dark)
     px,py,pw,ph = (14,14,612,344) if mobile else (14,14,640,360)
-    s += f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="4" fill="#10151D"/>'
+    s += f'<rect x="{px-.5}" y="{py-.5}" width="{pw+1}" height="{ph+1}" rx="4" fill="#08111F" stroke="#315984"/>'
     s += f'<svg x="{px}" y="{py}" width="{pw}" height="{ph}" viewBox="{project["viewbox"]}" preserveAspectRatio="xMidYMid meet">'
     s += image(project['source'],0,0,*project['size'])+'</svg>'
     if mobile:
         x=28
-        s += text(x,410,project['label'],27,muted,font=KOREAN)
+        s += text(x,410,project['label'],27,blue,font=KOREAN)
         s += text(x,484,project['metric'],min(project['metric_size'],64),ink,650,font=KOREAN)
-        s += text(x,537,project['support'],32,accent,600,font=KOREAN)
-        s += f'<path d="M28 565H612" stroke="{line}"/>'
+        s += text(x,537,project['support'],32,amber,600,font=KOREAN)
+        s += '<path d="M28 565H612" stroke="#315984"/><path d="M28 565H68" stroke="#F2B45F" stroke-width="2"/>'
         s += text(x,611,project['note'],26,muted,font=KOREAN)
         s += text(x,654,project['foot'],26,muted,font=KOREAN)
     else:
         x=698
-        s += text(x,68,project['label'],24,muted,font=KOREAN)
+        s += text(x,68,project['label'],24,blue,font=KOREAN)
         s += text(x,159,project['metric'],project['metric_size'],ink,650,font=KOREAN)
-        s += text(x,212,project['support'],29,accent,600,font=KOREAN)
-        s += f'<path d="M698 246H1168" stroke="{line}"/>'
+        s += text(x,212,project['support'],29,amber,600,font=KOREAN)
+        s += '<path d="M698 246H1168" stroke="#315984"/><path d="M698 246H738" stroke="#F2B45F" stroke-width="2"/>'
         s += text(x,294,project['note'],23,muted,font=KOREAN)
         s += text(x,335,project['foot'],23,muted,font=KOREAN)
+    return s+'</svg>\n'
+
+
+def panel(w,h,title,description,dark):
+    edge = '#315984' if dark else '#294B74'
+    s = start(w,h,title,description)
+    s += '<defs><linearGradient id="panel-navy" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#0C1729"/><stop offset="1" stop-color="#102746"/></linearGradient></defs>'
+    s += f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="16" fill="url(#panel-navy)" stroke="{edge}"/>'
+    s += f'<path d="M.5 42V16.5a16 16 0 0 1 16-16H48M{w-48} {h-.5}h31.5a16 16 0 0 0 16-16V{h-42}" fill="none" stroke="#DCA75F" stroke-width="1.5" opacity=".8"/>'
+    return s
+
+
+PRINCIPLES = [
+    ('흐름을 먼저 봅니다.',
+     ['입력부터 결과까지의 흐름과','사람이 판단할 지점을','정리합니다.'],
+     ['입력에서 결과까지의 경로와','사람이 판단할 지점을 정리합니다.']),
+    ('실제로 사용해 봅니다.',
+     ['저장·복원·실패·오프라인도','브라우저에서 직접','확인합니다.'],
+     ['저장·복원·실패·오프라인까지','브라우저에서 직접 확인합니다.']),
+    ('고친 것은 기록합니다.',
+     ['발견한 결함은 회귀 테스트와','CI에 남기고 측정 조건과','한계를 함께 적습니다.'],
+     ['결함은 회귀 테스트와 CI에 남기고,','측정 조건과 한계도 함께 기록합니다.']),
+]
+
+
+def approach(dark,mobile):
+    w,h = (640,552) if mobile else (1200,268)
+    s = panel(w,h,'만드는 방식 — 설계, 사용, 기록',
+              ' '.join(title+' '+' '.join(body) for title,body,_ in PRINCIPLES),dark)
+    for i,(title,desktop_body,mobile_body) in enumerate(PRINCIPLES):
+        if mobile:
+            x,y=28,62+i*180
+            s += text(x,y,title,32,PORTFOLIO['ink'],600,font=KOREAN)
+            for n,line in enumerate(mobile_body):
+                s += text(x,y+46+n*38,line,28,PORTFOLIO['muted'],font=KOREAN)
+            if i<2:
+                s += f'<path d="M28 {y+116}H612" stroke="#315984"/><path d="M28 {y+116}h40" stroke="#F2B45F" stroke-width="2"/>'
+        else:
+            x=32+i*404
+            s += f'<path d="M{x} 38h34" stroke="#F2B45F" stroke-width="3"/>'
+            s += text(x,92,title,28,PORTFOLIO['ink'],600,font=KOREAN)
+            for n,line in enumerate(desktop_body):
+                s += text(x,144+n*40,line,24,PORTFOLIO['muted'],font=KOREAN)
+            if i<2:
+                s += f'<path d="M{x+370} 32V236" stroke="#315984"/>'
+    return s+'</svg>\n'
+
+
+MORE_PROJECTS = [
+    ('codex-agent-kit','Codex Agent Kit',
+     '요청의 의도를 실행·검증까지 연결하는 개인 Codex 설정과 스킬 구성.',
+     ['요청의 의도를 실행·검증까지 연결하는','개인 Codex 설정과 스킬 구성.']),
+    ('blog-writing','blog-writing',
+     '후보 수집과 중복 제거를 거쳐 티스토리 발행용 초안을 만드는 파이프라인.',
+     ['후보 수집·중복 제거부터','티스토리 발행용 초안 파이프라인까지.']),
+]
+
+
+def more_project(project,dark,mobile):
+    slug,title,description,mobile_body=project
+    w,h=(640,196) if mobile else (1200,140)
+    s=panel(w,h,title,description,dark)
+    x,y=(28,30) if mobile else (32,42)
+    if slug=='codex-agent-kit':
+        s+=f'<path d="m{x+12} {y+4}-12 16 12 16m24-32 12 16-12 16" fill="none" stroke="#7DBEFF" stroke-width="2.5"/><path d="m{x+28} {y}-8 40" stroke="#F2B45F" stroke-width="2.5"/>'
+    else:
+        s+=f'<path d="M{x+4} {y}h26l14 14v26H{x+4}Zm26 0v14h14M{x+12} {y+23}h24m-24 9h19" fill="none" stroke="#7DBEFF" stroke-width="2"/><path d="m{x+30} {y}14 14H{x+30}Z" fill="#F2B45F" fill-opacity=".4"/>'
+    if mobile:
+        s+=text(96,64,title,32,PORTFOLIO['ink'],600)
+        for n,line in enumerate(mobile_body):
+            s+=text(28,120+n*38,line,28,PORTFOLIO['muted'],font=KOREAN)
+    else:
+        s+=text(108,61,title,34,PORTFOLIO['ink'],600)
+        s+=text(108,105,description,24,PORTFOLIO['muted'],font=KOREAN)
     return s+'</svg>\n'
 
 
@@ -222,7 +295,14 @@ if __name__ == '__main__':
             for mobile in [False,True]:
                 suffix=('mobile-' if mobile else '')+('dark' if dark else 'light')
                 (ASSETS/'features'/f'{project["name"]}-{suffix}.svg').write_text(feature(project,dark,mobile))
-    paths = list(ASSETS.glob('profile-hero*.svg'))+list((ASSETS/'showcase').glob('*.svg'))+list((ASSETS/'features').glob('*.svg'))
+    (ASSETS/'sections').mkdir(exist_ok=True)
+    for dark in [False,True]:
+        for mobile in [False,True]:
+            suffix=('mobile-' if mobile else '')+('dark' if dark else 'light')
+            (ASSETS/'sections'/f'approach-{suffix}.svg').write_text(approach(dark,mobile))
+            for project in MORE_PROJECTS:
+                (ASSETS/'sections'/f'{project[0]}-{suffix}.svg').write_text(more_project(project,dark,mobile))
+    paths = list(ASSETS.glob('profile-hero*.svg'))+list((ASSETS/'showcase').glob('*.svg'))+list((ASSETS/'features').glob('*.svg'))+list((ASSETS/'sections').glob('*.svg'))
     for path in paths:
         ET.parse(path)
         print(f'{path.relative_to(ROOT)}: {path.stat().st_size // 1024} KiB')
