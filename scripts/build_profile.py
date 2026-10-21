@@ -66,33 +66,34 @@ def hero(dark, mobile):
     ink, muted = ('#F0F6FC','#9DA7B3') if dark else ('#1F2328','#59636E')
     line = '#303A47' if dark else '#D1D9E0'
     accent = '#69B7FF' if dark else '#0969DA'
-    w,h = (640,300) if mobile else (1200,200)
+    card = '#151D28' if dark else '#F6F8FA'
+    w,h = (640,456) if mobile else (1200,220)
     s = start(w,h,'Seung-Won Yu — AI systems, web products & games.',
               'Seung-Won Yu. AI 도구와 웹 제품, 브라우저 게임을 만들고 실제 동작과 검증 기록을 남깁니다. '
               'AI: 검수와 전용 모델 학습. Web: 상태 저장과 오프라인. Games: 5분 로그라이트. '
-              '작은 Ash & Amber 캐릭터가 한 걸음 움직인 뒤 잠시 쉽니다. 동작 줄이기 설정에서는 정지합니다.')
+              'Ash & Amber 캐릭터가 작업 영역 카드 앞으로 나와 한 걸음 움직인 뒤 잠시 쉽니다. 동작 줄이기 설정에서는 정지합니다.')
     if mobile:
         s += text(1,54,'Seung-Won Yu',44,ink,650,'letter-spacing="-1.5"')
         s += text(3,91,'AI systems, web products & games.',24,muted)
         s += text(3,144,'AI 도구·웹 제품·게임을 만들고,',28,ink,font=KOREAN)
         s += text(3,182,'실제 동작과 검증 기록을 남깁니다.',28,ink,font=KOREAN)
-        s += f'<path d="M3 214H637" stroke="{line}"/>'
-        for x,label,description in [(3,'AI','검수·모델 학습'),(224,'Web','저장·오프라인'),(446,'Games','5분 로그라이트')]:
-            s += text(x,252,label,28,accent,600)
-            s += text(x,288,description,25,muted,font=KOREAN)
-        s += f'<ellipse cx="586" cy="90" rx="27" ry="2.4" fill="{line}" opacity=".5"/>'
-        s += character(586,87,.30,face_left=True)
+        s += f'<rect x="3.5" y="238.5" width="596" height="194" rx="16" fill="{card}" stroke="{line}"/>'
+        for y,label,description in [(282,'AI','검수·모델 학습'),(342,'Web','저장·오프라인'),(402,'Games','5분 로그라이트')]:
+            s += text(26,y,label,28,accent,600)
+            s += text(146,y,description,27,muted,font=KOREAN)
+        s += f'<ellipse cx="511" cy="438" rx="70" ry="6" fill="{line}" opacity=".4"/>'
+        s += character(508,436,.96,face_left=True)
     else:
         s += text(1,54,'Seung-Won Yu',52,ink,650,'letter-spacing="-1.5"')
         s += text(3,94,'AI systems, web products & browser games.',25,muted)
         s += text(3,143,'AI 워크플로부터 웹 인터페이스와 게임까지,',23,ink,font=KOREAN)
         s += text(3,178,'직접 써볼 수 있는 제품과 검증 기록을 만듭니다.',23,ink,font=KOREAN)
-        s += f'<path d="M722 12V180" stroke="{line}"/>'
-        for y,label,description in [(43,'AI','검수와 전용 모델 학습'),(97,'Web','상태 저장과 오프라인'),(151,'Games','5분 로그라이트')]:
-            s += text(758,y,label,23,accent,600)
-            s += text(852,y,description,22,muted,font=KOREAN)
-        s += f'<ellipse cx="1142" cy="146" rx="32" ry="2.8" fill="{line}" opacity=".5"/>'
-        s += character(1142,143,.34,face_left=True)
+        s += f'<rect x="708.5" y="46.5" width="462" height="150" rx="14" fill="{card}" stroke="{line}"/>'
+        for y,label,description in [(82,'AI','검수·모델 학습'),(126,'Web','저장·오프라인'),(170,'Games','5분 로그라이트')]:
+            s += text(734,y,label,22,accent,600)
+            s += text(822,y,description,20,muted,font=KOREAN)
+        s += f'<ellipse cx="1099" cy="208" rx="55" ry="5" fill="{line}" opacity=".4"/>'
+        s += character(1093,205,.76,face_left=True)
     return s+'</svg>\n'
 
 
