@@ -1,9 +1,9 @@
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/7fc4badbd86140528b8094651fd95d8330797718/assets/profile-hero-mobile-dark.svg" />
-  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/7fc4badbd86140528b8094651fd95d8330797718/assets/profile-hero-mobile-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/7fc4badbd86140528b8094651fd95d8330797718/assets/profile-hero-dark.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/7fc4badbd86140528b8094651fd95d8330797718/assets/profile-hero-light.svg" alt="Seung-Won Yu. AI 도구·웹 제품·게임을 만들고 실제 동작과 검증 기록을 남깁니다. AI: 검수와 전용 모델 학습. Web: 상태 저장과 오프라인. Games: 5분 로그라이트. Ash &amp; Amber 캐릭터가 작업 영역 카드 앞으로 나와 움직입니다." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f72f361059fd7eca0e68e5de9abe734173304eec/assets/profile-hero-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f72f361059fd7eca0e68e5de9abe734173304eec/assets/profile-hero-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f72f361059fd7eca0e68e5de9abe734173304eec/assets/profile-hero-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f72f361059fd7eca0e68e5de9abe734173304eec/assets/profile-hero-light.svg" alt="Seung-Won Yu. AI 도구·웹 제품·게임을 만들고 실제 동작과 검증 기록을 남깁니다. AI: 검수와 전용 모델 학습. Web: 상태 저장과 오프라인. Games: 5분 로그라이트. 네이비·블루와 앰버 포인트의 배너 프레임 밖으로 큰 Ash &amp; Amber 캐릭터가 나와 움직입니다." />
 </picture>
 </p>
 
