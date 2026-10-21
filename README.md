@@ -1,11 +1,11 @@
+<p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-mobile-dark.svg" />
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-mobile-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-dark.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/1b8b86ebb4e8ccde181697d5014af143fb9946d3/assets/profile-hero-light.svg" alt="Seung-Won Yu — AI 도구, 웹 제품, 브라우저 게임을 만듭니다. 작은 Ash & Amber 캐릭터가 걷는 동작을 보여줍니다." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f1947b11d470f20fe4980836c38c78808405e270/assets/profile-hero-mobile-dark.svg" />
+  <source media="(max-width: 1011px)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f1947b11d470f20fe4980836c38c78808405e270/assets/profile-hero-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f1947b11d470f20fe4980836c38c78808405e270/assets/profile-hero-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Seung-Won-Yu/Seung-Won-Yu/f1947b11d470f20fe4980836c38c78808405e270/assets/profile-hero-light.svg" alt="Seung-Won Yu. AI 도구·웹 제품·게임을 만들고 실제 동작과 검증 기록을 남깁니다. AI: 검수와 전용 모델 학습. Web: 상태 저장과 오프라인. Games: 5분 로그라이트. 작은 Ash &amp; Amber 캐릭터가 움직입니다." />
 </picture>
-
-AI 워크플로부터 웹 인터페이스와 게임까지, **직접 써볼 수 있는 제품과 검증 기록**을 만듭니다.
+</p>
 
 [대표작](#selected-work) &nbsp;&nbsp; [만드는 방식](#approach) &nbsp;&nbsp; [더 살펴보기](#more-work) &nbsp;&nbsp; [이메일](mailto:a98857283@gmail.com)
 
